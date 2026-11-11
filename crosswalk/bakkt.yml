@@ -1,0 +1,45 @@
+provider: bakkt
+apis_io: https://apis.io/providers/bakkt/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - instruments
+    properties:
+      symbol: symbol
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/bakkt-crypto-openapi.yml#GET /apex-crypto/api/v2/instruments
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id:
+      - id
+      - clientOrderId
+      status: status
+      order_type: type
+      created_at: createdAt
+      quantity: quantity
+      side: side
+      price: price
+      symbol: symbol
+      time_in_force: timeInForce
+      stop_price: stopPrice
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/bakkt-crypto-openapi.yml#GET /apex-crypto/api/v2/orders/{clientOrderId}
+    - openapi/_original/bakkt-crypto-openapi.yml#POST /apex-crypto/api/v2/orders
+  balance:
+    path_segment:
+    - accounts
+    - balance
+    properties:
+      currency: currency
+      created_at: createdAt
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/bakkt-crypto-openapi.yml#GET /apex-crypto/api/v2/accounts/{clientAccountId}
+    - openapi/_original/bakkt-crypto-openapi.yml#GET /partner/v1/partner/{partnerId}/party/{partnerPartyRef}/fiatAccount/balance
+    - openapi/_original/bakkt-crypto-openapi.yml#POST /apex-crypto/api/v2/accounts

@@ -1,0 +1,16 @@
+provider: 2s-io
+apis_io: https://apis.io/providers/2s-io/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - markets
+    - symbols
+    properties:
+      symbol: symbol
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/2s-io-openapi.json#GET /api/crypto/markets
+    - openapi/_original/2s-io-openapi.json#GET /api/predict/markets
+    - openapi/_original/2s-io-openapi.json#GET /api/stocks/symbols

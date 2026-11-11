@@ -1,0 +1,34 @@
+provider: bitso
+apis_io: https://apis.io/providers/bitso/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - ticker
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/bitso-openapi.yml#GET /api/v3/ticker
+  exchange_order:
+    path_segment:
+    - orders
+    - open_orders
+    properties:
+      order_type: type
+      side: side
+      price: price
+      time_in_force: time_in_force
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/bitso-openapi.yml#DELETE /api/v3/orders/{oid}
+    - openapi/_original/bitso-openapi.yml#GET /api/v3/open_orders
+    - openapi/_original/bitso-openapi.yml#GET /api/v3/orders/{oid}
+    - openapi/_original/bitso-openapi.yml#POST /api/v3/orders
+  balance:
+    path_segment:
+    - balance
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/bitso-openapi.yml#GET /api/v3/balance

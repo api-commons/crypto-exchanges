@@ -1,0 +1,17 @@
+provider: kalshi
+apis_io: https://apis.io/providers/kalshi/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - markets
+    properties:
+      status: status
+      created_at: created_time
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/kalshi-openapi.yml#GET /historical/markets
+    - openapi/_original/kalshi-openapi.yml#GET /historical/markets/{ticker}
+    - openapi/_original/kalshi-openapi.yml#GET /markets
+    - openapi/_original/kalshi-openapi.yml#GET /markets/{ticker}

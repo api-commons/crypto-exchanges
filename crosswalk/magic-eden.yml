@@ -1,0 +1,18 @@
+provider: magic-eden
+apis_io: https://apis.io/providers/magic-eden/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: id
+      status: status
+      created_at: createdAt
+      quantity: amount
+      side: side
+      price: price
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/magic-eden-ordinals-openapi.yml#GET /v2/ord/btc/runes/orders/{rune}

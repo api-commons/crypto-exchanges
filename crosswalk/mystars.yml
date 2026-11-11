@@ -1,0 +1,27 @@
+provider: mystars
+apis_io: https://apis.io/providers/mystars/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - products
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/mystars-faas-openapi.json#GET /v1/products
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: order_id
+      status: status
+      order_type: type
+      created_at: created_at
+      quantity: quantity
+      updated_at: updated_at
+    core_coverage: 0.625
+    evidence:
+    - openapi/_original/mystars-faas-openapi.json#GET /v1/orders
+    - openapi/_original/mystars-faas-openapi.json#GET /v1/orders/{id}
+    - openapi/_original/mystars-faas-openapi.json#POST /v1/orders

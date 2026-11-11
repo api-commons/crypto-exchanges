@@ -1,0 +1,16 @@
+provider: xt-com
+apis_io: https://apis.io/providers/xt-com/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - ticker
+    - tickers
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/xt-com-biz-quotation.yml#GET /v1/public/q/ticker
+    - openapi/_original/xt-com-biz-quotation.yml#GET /v1/public/q/tickers
+    - openapi/_original/xt-com-futures-market-openapi.yml#GET /v1/public/q/ticker
+    - openapi/_original/xt-com-futures-market-openapi.yml#GET /v1/public/q/tickers

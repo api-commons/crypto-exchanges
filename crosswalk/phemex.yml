@@ -1,0 +1,30 @@
+provider: phemex
+apis_io: https://apis.io/providers/phemex/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    - order
+    properties:
+      id: orderID
+      order_type: ordType
+      side: side
+      symbol: symbol
+      time_in_force: timeInForce
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/contract.yml#GET /api-data/futures/orders
+    - openapi/_original/spot.yml#DELETE /spot/orders
+    - openapi/_original/spot.yml#GET /exchange/spot/order
+    - openapi/_original/spot.yml#GET /spot/orders
+    - openapi/_original/spot.yml#POST /spot/orders
+  balance:
+    path_segment:
+    - wallets
+    properties:
+      currency: currency
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/spot.yml#GET /spot/wallets

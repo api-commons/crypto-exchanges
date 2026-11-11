@@ -1,0 +1,42 @@
+provider: bullet
+apis_io: https://apis.io/providers/bullet/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - exchangeinfo
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/bullet-trading-api-openapi.json#GET /fapi/v1/exchangeInfo
+  exchange_order:
+    path_segment:
+    - openorders
+    properties:
+      id:
+      - clientOrderId
+      - orderId
+      status: status
+      order_type: orderType
+      quantity: origQty
+      side: side
+      price: price
+      symbol: symbol
+      time_in_force: timeInForce
+      updated_at: updateTime
+      reduce_only: reduceOnly
+      stop_price: stopPrice
+    core_coverage: 0.875
+    evidence:
+    - openapi/_original/bullet-trading-api-openapi.json#GET /fapi/v1/openOrders
+  balance:
+    path_segment:
+    - balance
+    properties:
+      currency: asset
+      available: availableBalance
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/bullet-trading-api-openapi.json#GET /api/v1/balance
+    - openapi/_original/bullet-trading-api-openapi.json#GET /fapi/v3/balance

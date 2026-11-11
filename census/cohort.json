@@ -1,0 +1,2243 @@
+[
+ {
+  "slug": "0x",
+  "specs": [
+   "openapi/_original/0x-api.yaml",
+   "openapi/_original/0x-cross-chain.yaml"
+  ]
+ },
+ {
+  "slug": "0xarchive",
+  "specs": [
+   "openapi/_original/0xarchive-openapi-original.json",
+   "openapi/_original/0xarchive-openapi.json"
+  ]
+ },
+ {
+  "slug": "1token",
+  "specs": [
+   "openapi/_original/1token-1ndex-openapi.json",
+   "openapi/_original/1token-1ndex-openapi.yml"
+  ]
+ },
+ {
+  "slug": "2s-io",
+  "specs": [
+   "openapi/_original/2s-io-openapi.json"
+  ]
+ },
+ {
+  "slug": "adanos-market-sentiment-api",
+  "specs": [
+   "openapi/_original/adanos-market-sentiment-api-news-openapi.yaml",
+   "openapi/_original/adanos-market-sentiment-api-openapi.json",
+   "openapi/_original/adanos-market-sentiment-api-polymarket-openapi.yaml",
+   "openapi/_original/adanos-market-sentiment-api-reddit-crypto-openapi.yaml",
+   "openapi/_original/adanos-market-sentiment-api-reddit-openapi.yaml",
+   "openapi/_original/adanos-market-sentiment-api-sentiment-openapi.yaml",
+   "openapi/_original/adanos-market-sentiment-api-x-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "aelf-inc",
+  "specs": [
+   "openapi/_original/aelf-inc-agent-gateway-openapi.yaml",
+   "openapi/_original/aelf-inc-node-web-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "aeternity",
+  "specs": [
+   "openapi/_original/aeternity-middleware-openapi.yml",
+   "openapi/_original/aeternity-middleware-v3-openapi.json",
+   "openapi/_original/aeternity-node-openapi.json",
+   "openapi/_original/aeternity-node-openapi.yml"
+  ]
+ },
+ {
+  "slug": "agentexchange-work",
+  "specs": [
+   "openapi/_original/agentexchange-work-agent-planets-openapi.json",
+   "openapi/_original/agentexchange-work-api-store-openapi.json",
+   "openapi/_original/agentexchange-work-gatekeeper-oracle-openapi.json"
+  ]
+ },
+ {
+  "slug": "agora",
+  "specs": [
+   "openapi/_original/agora-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "aleo",
+  "specs": [
+   "openapi/_original/aleo-node-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "algorand",
+  "specs": [
+   "openapi/_original/algorand-algod-openapi.json",
+   "openapi/_original/algorand-indexer-openapi.json",
+   "openapi/_original/algorand-kmd-openapi.json"
+  ]
+ },
+ {
+  "slug": "algovoi-co-uk",
+  "specs": [
+   "openapi/_original/algovoi-co-uk-agent-trust-bench-openapi.json",
+   "openapi/_original/algovoi-co-uk-agent-trust-bench-openapi.yml",
+   "openapi/_original/algovoi-co-uk-audit-verifier-openapi.json",
+   "openapi/_original/algovoi-co-uk-audit-verifier-openapi.yml",
+   "openapi/_original/algovoi-co-uk-clinic-openapi.json",
+   "openapi/_original/algovoi-co-uk-clinic-openapi.yml",
+   "openapi/_original/algovoi-co-uk-gateway-openapi.json",
+   "openapi/_original/algovoi-co-uk-gateway-openapi.yml",
+   "openapi/_original/algovoi-co-uk-pay-openapi.json",
+   "openapi/_original/algovoi-co-uk-pay-openapi.yml"
+  ]
+ },
+ {
+  "slug": "allium",
+  "specs": [
+   "openapi/_original/allium-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "alpha-vantage",
+  "specs": [
+   "openapi/_original/alpha-vantage-plugin-openapi.json"
+  ]
+ },
+ {
+  "slug": "altoira",
+  "specs": [
+   "openapi/_original/altoira-partner-api-openapi-original.json",
+   "openapi/_original/altoira-partner-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amberdata",
+  "specs": [
+   "openapi/_original/amberdata-arc-openapi.yaml",
+   "openapi/_original/amberdata-blockchain-openapi.yaml",
+   "openapi/_original/amberdata-defi-market-openapi.yaml",
+   "openapi/_original/amberdata-defi-openapi.yaml",
+   "openapi/_original/amberdata-derivatives-openapi.yaml",
+   "openapi/_original/amberdata-market-openapi.yaml",
+   "openapi/_original/amberdata-metrics-openapi.yaml",
+   "openapi/_original/amberdata-openapi.yml",
+   "openapi/_original/amberdata-price-openapi.yaml",
+   "openapi/_original/amberdata-spot-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "anchorage",
+  "specs": [
+   "openapi/_original/anchorage-v2-openapi-original.yml",
+   "openapi/_original/anchorage-v3-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "angle",
+  "specs": [
+   "openapi/_original/angle-api-openapi-github.yaml",
+   "openapi/_original/angle-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "aptos",
+  "specs": [
+   "openapi/_original/aptos-fullnode-rest-api-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "arbiscan",
+  "specs": [
+   "openapi/_original/arbiscan-openapi.yml"
+  ]
+ },
+ {
+  "slug": "arkham",
+  "specs": [
+   "openapi/_original/arkham-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "assetfare",
+  "specs": [
+   "openapi/_original/assetfare-openapi.json",
+   "openapi/_original/assetfare-openapi_2.json",
+   "openapi/_original/assetfare-v2-openapi-quote-only.json",
+   "openapi/_original/assetfare-v2-openapi.json",
+   "openapi/_original/v2-openapi.json"
+  ]
+ },
+ {
+  "slug": "autonomys",
+  "specs": [
+   "openapi/_original/autonomys-auto-drive-openapi.json"
+  ]
+ },
+ {
+  "slug": "ava-labs",
+  "specs": [
+   "openapi/_original/ava-labs-data-api-openapi.yml",
+   "openapi/_original/ava-labs-metrics-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "avora-agent-forge",
+  "specs": [
+   "openapi/_original/avora-agent-forge-commerce-openapi.json",
+   "openapi/_original/avora-agent-forge-public-sector-openapi.json"
+  ]
+ },
+ {
+  "slug": "b3",
+  "specs": [
+   "openapi/_original/b3-b3os-workflow-openapi.json",
+   "openapi/_original/b3-b3os-workflow-openapi_2.json",
+   "openapi/_original/b3-data-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "babylon-labs",
+  "specs": [
+   "openapi/_original/babylon-labs-staking-api-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "backpack",
+  "specs": [
+   "openapi/_original/backpack-exchange-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bakkt",
+  "specs": [
+   "openapi/_original/bakkt-crypto-openapi.yml"
+  ]
+ },
+ {
+  "slug": "barchart",
+  "specs": [
+   "openapi/_original/barchart-ondemand-official-openapi.yml",
+   "openapi/_original/barchart-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bcb-group",
+  "specs": [
+   "openapi/_original/bcb-group-payments-openapi.json"
+  ]
+ },
+ {
+  "slug": "bigchaindb",
+  "specs": [
+   "openapi/_original/bigchaindb-http-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bigone",
+  "specs": [
+   "openapi/_original/bigone-contract-openapi.yml",
+   "openapi/_original/bigone-convert-openapi.yml",
+   "openapi/_original/bigone-server-openapi.yml",
+   "openapi/_original/bigone-spot-openapi.yml",
+   "openapi/_original/bigone-wallet-openapi.yml",
+   "openapi/_original/contract_rest.yml",
+   "openapi/_original/convert_rest.yml",
+   "openapi/_original/spot_rest.yml",
+   "openapi/_original/spot_server.yml",
+   "openapi/_original/wallet_rest.yml"
+  ]
+ },
+ {
+  "slug": "binance",
+  "specs": [
+   "openapi/_original/binance-algo-trading-openapi.yml",
+   "openapi/_original/binance-auto-invest-openapi.yml",
+   "openapi/_original/binance-coin-margined-futures-openapi.yml",
+   "openapi/_original/binance-convert-openapi.yml",
+   "openapi/_original/binance-copy-trading-openapi.yml",
+   "openapi/_original/binance-crypto-loan-openapi.yml",
+   "openapi/_original/binance-european-options-openapi.yml",
+   "openapi/_original/binance-fiat-openapi.yml",
+   "openapi/_original/binance-gift-card-openapi.yml",
+   "openapi/_original/binance-margin-trading-openapi.yml",
+   "openapi/_original/binance-mining-openapi.yml",
+   "openapi/_original/binance-nft-openapi.yml",
+   "openapi/_original/binance-pay-openapi.yml",
+   "openapi/_original/binance-portfolio-margin-openapi.yml",
+   "openapi/_original/binance-simple-earn-openapi.yml",
+   "openapi/_original/binance-spot-trading-openapi.yml",
+   "openapi/_original/binance-sub-account-openapi.yml",
+   "openapi/_original/binance-usds-margined-futures-openapi.yml",
+   "openapi/_original/binance-wallet-openapi.yml"
+  ]
+ },
+ {
+  "slug": "birdfury-com",
+  "specs": [
+   "openapi/_original/birdfury-com-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "bitcoinyield",
+  "specs": [
+   "openapi/_original/bitcoinyield-openapi.json"
+  ]
+ },
+ {
+  "slug": "bitculator",
+  "specs": [
+   "openapi/_original/bitculator-data-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "bitgo",
+  "specs": [
+   "openapi/_original/bitgo-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bithumb",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "bitpanda",
+  "specs": [
+   "openapi/_original/bitpanda-platform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bitpay",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "bitso",
+  "specs": [
+   "openapi/_original/bitso-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bitstamp",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "bitvavo",
+  "specs": [
+   "openapi/_original/bitvavo-exchange-rest-openapi.yml",
+   "openapi/_original/bitvavo-institutional-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bitwise",
+  "specs": [
+   "openapi/_original/bitwise-openapi.yml"
+  ]
+ },
+ {
+  "slug": "blackbird",
+  "specs": [
+   "openapi/_original/blackbird-flynet-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "block",
+  "specs": [
+   "openapi/_original/block-openapi.json"
+  ]
+ },
+ {
+  "slug": "blockaid",
+  "specs": [
+   "openapi/_original/blockaid-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "blockchain-7",
+  "specs": [
+   "openapi/_original/blockchain-7-api-acp.json",
+   "openapi/_original/blockchain-7-api-ucp.json"
+  ]
+ },
+ {
+  "slug": "blockchain.com",
+  "specs": [
+   "openapi/_original/blockchain.com-exchange-openapi.yml",
+   "openapi/_original/blockchain.com-nft-market-api-swagger.json",
+   "openapi/_original/blockchain.com-pay-partner-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "blockchair",
+  "specs": [
+   "openapi/_original/blockchair-openapi.yml"
+  ]
+ },
+ {
+  "slug": "blockdaemon",
+  "specs": [
+   "openapi/_original/blockdaemon-defi-api-readme-slices.json",
+   "openapi/_original/blockdaemon-event-streaming-api-readme-slices.json",
+   "openapi/_original/blockdaemon-native-rest-api-readme-slices.json",
+   "openapi/_original/blockdaemon-pricing-api-readme-slices.json",
+   "openapi/_original/blockdaemon-rest-api-readme-slices.json",
+   "openapi/_original/blockdaemon-sepior-threshold-security-module-tsm-management-api-readme-slices.json",
+   "openapi/_original/blockdaemon-staking-api-1-0-0-openapi.yml",
+   "openapi/_original/blockdaemon-staking-api-1-0-0-readme-slices.json",
+   "openapi/_original/blockdaemon-staking-api-2-0-0-openapi.yml",
+   "openapi/_original/blockdaemon-staking-api-2-0-0-readme-slices.json",
+   "openapi/_original/blockdaemon-staking-reporting-api-readme-slices.json",
+   "openapi/_original/blockdaemon-transaction-api-readme-slices.json",
+   "openapi/_original/blockdaemon-webhook-target-api-readme-slices.json",
+   "openapi/_original/blockdaemon-workspace-members-openapi.yml",
+   "openapi/_original/blockdaemon-workspace-members-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "blockfrost",
+  "specs": [
+   "openapi/_original/blockfrost-openapi.yaml",
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "blocklottos-com",
+  "specs": [
+   "openapi/_original/blocklottos-com-openapi.json",
+   "openapi/_original/blocklottos-com-openapi.yml"
+  ]
+ },
+ {
+  "slug": "blockvision",
+  "specs": [
+   "openapi/_original/blockvision-v2-openapi.yml",
+   "openapi/_original/blockvision-v2-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "blowfish",
+  "specs": [
+   "openapi/_original/blowfish-v20230308-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "boost",
+  "specs": [
+   "openapi/_original/boost-v2-openapi.json"
+  ]
+ },
+ {
+  "slug": "braiins-academy",
+  "specs": [
+   "openapi/_original/braiins-academy-braiins-hashpower-openapi.yml",
+   "openapi/_original/braiins-academy-braiins-os-public-rest-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "brale",
+  "specs": [
+   "openapi/_original/brale-openapi.yml"
+  ]
+ },
+ {
+  "slug": "brapi",
+  "specs": [
+   "openapi/_original/brapi-openapi.json"
+  ]
+ },
+ {
+  "slug": "breeze",
+  "specs": [
+   "openapi/_original/breeze-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "bridge",
+  "specs": [
+   "openapi/_original/bridge-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "brl",
+  "specs": [
+   "openapi/_original/brl-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "btc-war-live-market-data-api",
+  "specs": [
+   "openapi/_original/btc-war-live-market-data-api-market-data-openapi.yml",
+   "openapi/_original/btc-war-live-market-data-api-openapi-bundle.json",
+   "openapi/_original/btc-war-live-market-data-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "btcmarkets",
+  "specs": [
+   "openapi/_original/btcmarkets-openapi.yml"
+  ]
+ },
+ {
+  "slug": "btcpay",
+  "specs": [
+   "openapi/_original/btcpay-openapi.json"
+  ]
+ },
+ {
+  "slug": "btse",
+  "specs": [
+   "openapi/_original/btse-earn-openapi.yml",
+   "openapi/_original/btse-futures-legacy-openapi.yml",
+   "openapi/_original/btse-futures-openapi.yml",
+   "openapi/_original/btse-markets-openapi.yml",
+   "openapi/_original/btse-otc-openapi.yml",
+   "openapi/_original/btse-spot-legacy-openapi.yml",
+   "openapi/_original/btse-spot-openapi.yml",
+   "openapi/_original/btse-wallet-openapi.yml",
+   "openapi/_original/earn-rest.openapi.yaml",
+   "openapi/_original/futures-rest.openapi.yaml",
+   "openapi/_original/futures_openapi_v3.yaml",
+   "openapi/_original/markets-rest.openapi.yaml",
+   "openapi/_original/otc-rest.openapi.yaml",
+   "openapi/_original/spot-rest.openapi.yaml",
+   "openapi/_original/spot_openapi_v4.yaml",
+   "openapi/_original/wallet-rest.openapi.yaml"
+  ]
+ },
+ {
+  "slug": "bullet",
+  "specs": [
+   "openapi/_original/bullet-trading-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "bullish",
+  "specs": [
+   "openapi/_original/bullish-trading-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bvnk",
+  "specs": [
+   "openapi/_original/bvnk-api-endpoints-openapi-original.yml",
+   "openapi/_original/bvnk-layer1-digital-asset-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "bykaranteli",
+  "specs": [
+   "openapi/_original/bykaranteli-x402-openapi.json"
+  ]
+ },
+ {
+  "slug": "capitalist",
+  "specs": [
+   "openapi/_original/capitalist-integration-api-openapi.json",
+   "openapi/_original/capitalist-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cardano",
+  "specs": [
+   "openapi/_original/blockfrost-cardano-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "celsius-network",
+  "specs": [
+   "openapi/_original/celsius-network-partner-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "chainlens",
+  "specs": [
+   "openapi/_original/chainlens-openapi.yml"
+  ]
+ },
+ {
+  "slug": "chainstack",
+  "specs": [
+   "openapi/_original/chainstack-arbitrum-node-api-openapi.yml",
+   "openapi/_original/chainstack-aurora-node-api-openapi.yml",
+   "openapi/_original/chainstack-avalanche-node-api-openapi.yml",
+   "openapi/_original/chainstack-base-node-api-openapi.yml",
+   "openapi/_original/chainstack-bitcoin-node-api-openapi.yml",
+   "openapi/_original/chainstack-bnb-node-api-openapi.yml",
+   "openapi/_original/chainstack-cronos-node-api-openapi.yml",
+   "openapi/_original/chainstack-ethereum-beacon-chain-api-openapi.yml",
+   "openapi/_original/chainstack-ethereum-node-api-openapi.yml",
+   "openapi/_original/chainstack-fantom-node-api-openapi.yml",
+   "openapi/_original/chainstack-gnosis-node-api-openapi.yml",
+   "openapi/_original/chainstack-hyperliquid-node-api-openapi.yml",
+   "openapi/_original/chainstack-monad-node-api-openapi.yml",
+   "openapi/_original/chainstack-optimism-node-api-openapi.yml",
+   "openapi/_original/chainstack-plasma-node-api-openapi.yml",
+   "openapi/_original/chainstack-platform-api-openapi.yml",
+   "openapi/_original/chainstack-polygon-node-api-openapi.yml",
+   "openapi/_original/chainstack-polygon-zkevm-node-api-openapi.yml",
+   "openapi/_original/chainstack-ronin-node-api-openapi.yml",
+   "openapi/_original/chainstack-solana-node-api-openapi.yml",
+   "openapi/_original/chainstack-starknet-node-api-openapi.yml",
+   "openapi/_original/chainstack-tempo-node-api-openapi.yml",
+   "openapi/_original/chainstack-ton-node-api-openapi.yml",
+   "openapi/_original/chainstack-tron-node-api-openapi.yml",
+   "openapi/_original/chainstack-zksync-node-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cipherowl",
+  "specs": [
+   "openapi/_original/cipherowl-openapi.json"
+  ]
+ },
+ {
+  "slug": "classic",
+  "specs": [
+   "openapi/_original/classic-shapeshift-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "coin-metrics",
+  "specs": [
+   "openapi/_original/coin-metrics-api-v4-openapi.json"
+  ]
+ },
+ {
+  "slug": "coinbase",
+  "specs": [
+   "openapi/_original/coinbase-commerce-openapi.yml",
+   "openapi/_original/coinbase-onramp-openapi.yml",
+   "openapi/_original/coinbase-openapi.yml",
+   "openapi/_original/coinbase-prime-openapi.yml"
+  ]
+ },
+ {
+  "slug": "coincover",
+  "specs": [
+   "openapi/_original/coincover-institutional-openapi-openapi.json",
+   "openapi/_original/coincover-retail-openapi-openapi.json",
+   "openapi/_original/coincover-wallet-provider-openapi-openapi.json"
+  ]
+ },
+ {
+  "slug": "coinflow",
+  "specs": [
+   "openapi/_original/coinflow-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "coingate",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "coingecko",
+  "specs": [
+   "openapi/_original/coingecko-crypto-market-data-api-openapi.yml",
+   "openapi/_original/coingecko-onchain-dex-api-openapi.yml",
+   "openapi/_original/coingecko-pro-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "coinlist",
+  "specs": [
+   "openapi/_original/coinlist-passage-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "coinme",
+  "specs": [
+   "openapi/_original/coinme-caas-openapi.json"
+  ]
+ },
+ {
+  "slug": "coinpaprika",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "coinrailz-com",
+  "specs": [
+   "openapi/_original/coinrailz-com-agent-payment-api-openapi.json",
+   "openapi/_original/coinrailz-com-x402-services-openapi.json",
+   "openapi/_original/coinrailz-com-x402-services-openapi.yml"
+  ]
+ },
+ {
+  "slug": "coinsph",
+  "specs": [
+   "openapi/_original/coinsph-account-openapi.json",
+   "openapi/_original/coinsph-account-validation-openapi.json",
+   "openapi/_original/coinsph-convert-openapi.json",
+   "openapi/_original/coinsph-listenkey-openapi.json",
+   "openapi/_original/coinsph-markets-openapi.json",
+   "openapi/_original/coinsph-payment-openapi.json",
+   "openapi/_original/coinsph-ramp-openapi.json",
+   "openapi/_original/coinsph-spot-openapi.json",
+   "openapi/_original/coinsph-sub-account-openapi.json",
+   "openapi/_original/coinsph-system-openapi.json",
+   "openapi/_original/coinsph-wallet-openapi.json"
+  ]
+ },
+ {
+  "slug": "commerce-coinbase",
+  "specs": [
+   "openapi/_original/commerce-coinbase-openapi.json",
+   "openapi/_original/openapi-charges.yml",
+   "openapi/_original/openapi-checkouts.yml"
+  ]
+ },
+ {
+  "slug": "copper-co",
+  "specs": [
+   "openapi/_original/copper-co-deprecated-openapi.json",
+   "openapi/_original/copper-co-lending-openapi.json",
+   "openapi/_original/copper-co-platform-openapi.json",
+   "openapi/_original/copper-co-trades-openapi.json",
+   "openapi/_original/copper-co-unlimited-openapi.json"
+  ]
+ },
+ {
+  "slug": "covalent",
+  "specs": [
+   "openapi/_original/covalent-foundational-api-openapi.yml",
+   "openapi/_original/covalent-hyperliquid-info-api-openapi.yml",
+   "openapi/_original/covalent-pipeline-api-openapi.yml",
+   "openapi/_original/covalent-streaming-api-openapi.yml",
+   "openapi/_original/covalent-x402-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "crypto-com",
+  "specs": [
+   "openapi/_original/crypto-com-exchange-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cryptocompare",
+  "specs": [
+   "openapi/_original/cryptocompare-data-api-openapi.yml",
+   "openapi/_original/cryptocompare-min-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cryptomus",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "cryptonews",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "cryptoquant",
+  "specs": [
+   "openapi/_original/cryptoquant-openapi.json"
+  ]
+ },
+ {
+  "slug": "currencybeacon",
+  "specs": [
+   "openapi/_original/currencybeacon-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dapper-labs",
+  "specs": [
+   "openapi/_original/dapper-labs-flow-access-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "debank",
+  "specs": [
+   "openapi/_original/debank-pro-openapi-original.json",
+   "openapi/_original/debank-pro-openapi.yml"
+  ]
+ },
+ {
+  "slug": "defillama",
+  "specs": [
+   "openapi/_original/defillama-openapi.yml"
+  ]
+ },
+ {
+  "slug": "delta-exchange",
+  "specs": [
+   "openapi/_original/delta-exchange-openapi.yml",
+   "openapi/_original/delta-exchange-swagger_v2.json"
+  ]
+ },
+ {
+  "slug": "deribit",
+  "specs": [
+   "openapi/_original/deribit-openapi.json",
+   "openapi/_original/deribit-starbase-openapi.json",
+   "openapi/_original/deribit-upcoming-openapi.json"
+  ]
+ },
+ {
+  "slug": "derivadex",
+  "specs": [
+   "openapi/_original/derivadex-exchange-openapi.yml"
+  ]
+ },
+ {
+  "slug": "deutsche-boerse",
+  "specs": [
+   "openapi/_original/deutsche-boerse-a7-algo-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-auction-simulations-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-dataset-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-dataset-v2-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-eobi-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-insights-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-mdp-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-option-analytics-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-orderbook-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-precalc-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-rdi-v2-openapi.yml",
+   "openapi/_original/deutsche-boerse-a7-sd-v2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dflow",
+  "specs": [
+   "openapi/_original/dflow-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "dfns",
+  "specs": [
+   "openapi/_original/dfns-openapi.yml"
+  ]
+ },
+ {
+  "slug": "didit",
+  "specs": [
+   "openapi/_original/didit-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "digital-asset",
+  "specs": [
+   "openapi/_original/digital-asset-allocation-instruction-v1-openapi.yml",
+   "openapi/_original/digital-asset-allocation-v1-openapi.yml",
+   "openapi/_original/digital-asset-token-metadata-v1-openapi.yml",
+   "openapi/_original/digital-asset-transfer-instruction-v1-openapi.yml",
+   "openapi/_original/digital-asset-utilities-openapi.yml",
+   "openapi/_original/digital-asset-utilities-runtime-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dmarket",
+  "specs": [
+   "openapi/_original/dmarket-trading-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dodo",
+  "specs": [
+   "openapi/_original/dodo-trade-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dopex",
+  "specs": [
+   "openapi/_original/stryke-api.yaml"
+  ]
+ },
+ {
+  "slug": "dualregistry-dev",
+  "specs": [
+   "openapi/_original/dualregistry-dev-openapi.json"
+  ]
+ },
+ {
+  "slug": "dunamu",
+  "specs": [
+   "openapi/_original/dunamu-exchange-api-readme-slices.json",
+   "openapi/_original/dunamu-quotation-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "dxfeed",
+  "specs": [
+   "openapi/_original/dxfeed-fundamentals-openapi.json"
+  ]
+ },
+ {
+  "slug": "dynamic-labs",
+  "specs": [
+   "openapi/_original/dynamic-labs-openapi.yml",
+   "openapi/_original/dynamic-xyz-chainalysis-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-chains-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-custom-fields-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-custom-networks-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-customhostnames-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-deeplinkurls-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-events-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-externaljwt-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-gates-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-globalwalletaccesscontrol-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-globalwalletconnections-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-globalwallets-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-invites-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-members-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-mfa-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-mfasettings-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-nameservices-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-organizations-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-origins-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-projects-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-sdk-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-sdk-views-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-sessions-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-settings-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-testaccount-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-tokens-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-userapitokens-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-visits-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-waas-api-openapi.yml",
+   "openapi/_original/dynamic-xyz-walletconnect-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "eco",
+  "specs": [
+   "openapi/_original/eco-routes-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "elliptic",
+  "specs": [
+   "openapi/_original/aml-api-oauth.json",
+   "openapi/_original/aml-api-v2.json",
+   "openapi/_original/aml-api-v3.json",
+   "openapi/_original/data-fabric.yaml",
+   "openapi/_original/ia-api.json",
+   "openapi/_original/sanctions-api.json"
+  ]
+ },
+ {
+  "slug": "enso",
+  "specs": [
+   "openapi/_original/enso-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "eod-historical",
+  "specs": [
+   "openapi/_original/openapi.yaml"
+  ]
+ },
+ {
+  "slug": "eodhd",
+  "specs": [
+   "openapi/_original/eodhd-eod-historical-data-openapi.yml",
+   "openapi/_original/eodhd-financial-data-openapi.yml"
+  ]
+ },
+ {
+  "slug": "etherscan",
+  "specs": [
+   "openapi/_original/etherscan-openapi.yml"
+  ]
+ },
+ {
+  "slug": "etoro",
+  "specs": [
+   "openapi/_original/deprecated-openapi.json",
+   "openapi/_original/etoro-openapi.json"
+  ]
+ },
+ {
+  "slug": "evedex",
+  "specs": [
+   "openapi/_original/evedex-academy-openapi.json",
+   "openapi/_original/evedex-ai-strategies-openapi.json",
+   "openapi/_original/evedex-auth-openapi.json",
+   "openapi/_original/evedex-backoffice-openapi.json",
+   "openapi/_original/evedex-billing-openapi.json",
+   "openapi/_original/evedex-bridge-middleware-openapi.json",
+   "openapi/_original/evedex-exchange-openapi.json",
+   "openapi/_original/evedex-game-openapi.json",
+   "openapi/_original/evedex-market-data-openapi.json",
+   "openapi/_original/evedex-notifications-openapi.json",
+   "openapi/_original/evedex-referral-openapi.json"
+  ]
+ },
+ {
+  "slug": "farmdash",
+  "specs": [
+   "openapi/_original/farmdash-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "fastforex",
+  "specs": [
+   "openapi/_original/openapi.yaml"
+  ]
+ },
+ {
+  "slug": "fiat-republic",
+  "specs": [
+   "openapi/_original/fiat-republic-authentication-readme-slices.json",
+   "openapi/_original/fiat-republic-republic-openapi.yml",
+   "openapi/_original/fiat-republic-republic-readme-slices.json",
+   "openapi/_original/fiat-republic-transaction-monitoring-openapi.yml",
+   "openapi/_original/fiat-republic-transaction-monitoring-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "figment",
+  "specs": [
+   "openapi/_original/figment-api-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "fin",
+  "specs": [
+   "openapi/_original/fin-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "finnhub",
+  "specs": [
+   "openapi/_original/finnhub-openapi.yml",
+   "openapi/_original/finnhub-swagger-original.json"
+  ]
+ },
+ {
+  "slug": "fireblocks",
+  "specs": [
+   "openapi/_original/fireblocks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "flexa",
+  "specs": [
+   "openapi/_original/flexa-openapi.json"
+  ]
+ },
+ {
+  "slug": "footprint",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "fordefi",
+  "specs": [
+   "openapi/_original/fordefi-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "forum",
+  "specs": [
+   "openapi/_original/forum-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "frostbyte",
+  "specs": [
+   "openapi/_original/frostbyte-agent-gateway-openapi.yml",
+   "openapi/_original/frostbyte-code-execution-openapi.yml",
+   "openapi/_original/frostbyte-crypto-prices-openapi.yml",
+   "openapi/_original/frostbyte-dns-lookup-openapi.yml",
+   "openapi/_original/frostbyte-ip-geolocation-openapi.yml",
+   "openapi/_original/frostbyte-screenshot-openapi.yml",
+   "openapi/_original/frostbyte-web-scraper-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gala-games",
+  "specs": [
+   "openapi/_original/gala-games-block-explorer-openapi.json",
+   "openapi/_original/gala-games-defi-backend-openapi.json",
+   "openapi/_original/gala-games-galachain-asset-dexv3-contract-openapi.json",
+   "openapi/_original/gala-games-galachain-asset-fee-contract-openapi.json",
+   "openapi/_original/gala-games-galachain-asset-launchpad-contract-openapi.json",
+   "openapi/_original/gala-games-galachain-asset-public-key-contract-openapi.json",
+   "openapi/_original/gala-games-galachain-asset-token-contract-openapi.json",
+   "openapi/_original/gala-games-galaconnect-openapi.json"
+  ]
+ },
+ {
+  "slug": "galaxy-com",
+  "specs": [
+   "openapi/_original/galaxy-com-ethereum-gitbook-fragments.json",
+   "openapi/_original/galaxy-com-ethereum-staking-openapi.yml",
+   "openapi/_original/galaxy-com-solana-gitbook-fragments.json",
+   "openapi/_original/galaxy-com-solana-staking-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gallop",
+  "specs": [
+   "openapi/_original/gallop-analytics-openapi.json",
+   "openapi/_original/gallop-data-openapi.json",
+   "openapi/_original/gallop-insights-openapi.json"
+  ]
+ },
+ {
+  "slug": "gemini-trust",
+  "specs": [
+   "openapi/_original/gemini-trust-prediction-markets-openapi.yml",
+   "openapi/_original/gemini-trust-prediction-markets-openapi_2.yml",
+   "openapi/_original/gemini-trust-rest-openapi.yml",
+   "openapi/_original/gemini-trust-rest-openapi_2.yml"
+  ]
+ },
+ {
+  "slug": "glassnode",
+  "specs": [
+   "openapi/_original/glassnode-openapi.yml"
+  ]
+ },
+ {
+  "slug": "grapes-finance",
+  "specs": [
+   "openapi/_original/grapes-finance-openapi.yml"
+  ]
+ },
+ {
+  "slug": "halliday",
+  "specs": [
+   "openapi/_original/halliday-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "helika",
+  "specs": [
+   "openapi/_original/helika-events-openapi.json"
+  ]
+ },
+ {
+  "slug": "hifi",
+  "specs": [
+   "openapi/_original/hifi-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "hiro",
+  "specs": [
+   "openapi/_original/hiro-signer-metrics-api-openapi.yaml",
+   "openapi/_original/hiro-stacks-blockchain-api-openapi.yaml",
+   "openapi/_original/hiro-stacks-node-rpc-api-openapi.yaml",
+   "openapi/_original/hiro-token-metadata-api-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "hitbtc",
+  "specs": [
+   "openapi/_original/hitbtc-api-v2-spec.yaml",
+   "openapi/_original/hitbtc-api-v3-spec.yaml",
+   "openapi/_original/hitbtc-openapi.yml",
+   "openapi/_original/hitbtc-v2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "horizon-blockchain-games",
+  "specs": [
+   "openapi/_original/horizon-blockchain-games-analytics-openapi-original.json",
+   "openapi/_original/horizon-blockchain-games-builder-openapi-original.json",
+   "openapi/_original/horizon-blockchain-games-indexer-openapi-original.json",
+   "openapi/_original/horizon-blockchain-games-infrastructure-openapi-original.json",
+   "openapi/_original/horizon-blockchain-games-marketplace-openapi-original.json",
+   "openapi/_original/horizon-blockchain-games-metadata-openapi-original.json",
+   "openapi/_original/horizon-blockchain-games-transactions-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "hummingbot",
+  "specs": [
+   "openapi/_original/hummingbot-gateway-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "hyperbeat",
+  "specs": [
+   "openapi/_original/hyperbeat-staking-openapi.yml"
+  ]
+ },
+ {
+  "slug": "idle",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "idrx",
+  "specs": [
+   "openapi/_original/idrx-openapi.yml"
+  ]
+ },
+ {
+  "slug": "imgauth-api-di-attestazione-opere-digitali",
+  "specs": [
+   "openapi/_original/imgauth-api-di-attestazione-opere-digitali-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "infstones",
+  "specs": [
+   "openapi/_original/infstones-bnb-chain-openapi.json"
+  ]
+ },
+ {
+  "slug": "iota",
+  "specs": [
+   "openapi/_original/iota-evm-wasp-openapi.yaml",
+   "openapi/_original/iota-jsonrpc-openapi.json"
+  ]
+ },
+ {
+  "slug": "ishob",
+  "specs": [
+   "openapi/_original/ishob-openapi.json"
+  ]
+ },
+ {
+  "slug": "itsgloria-ai",
+  "specs": [
+   "openapi/_original/itsgloria-ai-openapi.json",
+   "openapi/_original/itsgloria-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "jito",
+  "specs": [
+   "openapi/_original/jito-block-engine-openapi.yml",
+   "openapi/_original/jito-bundles-tip-floor-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kadena",
+  "specs": [
+   "openapi/_original/kadena-chainweb-openapi-original.yml",
+   "openapi/_original/kadena-pact-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "kaiko",
+  "specs": [
+   "openapi/_original/kaiko-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kalshi",
+  "specs": [
+   "openapi/_original/kalshi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kamino",
+  "specs": [
+   "openapi/_original/kamino-public-openapi-original.json",
+   "openapi/_original/kamino-transactions-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "kraken",
+  "specs": [
+   "openapi/_original/kraken-openapi.json"
+  ]
+ },
+ {
+  "slug": "kronos-seshat",
+  "specs": [
+   "openapi/_original/kronos-seshat-openapi.json"
+  ]
+ },
+ {
+  "slug": "kusama",
+  "specs": [
+   "openapi/_original/kusama-sidecar-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "kyber-network",
+  "specs": [
+   "openapi/_original/kyber-network-aggregator-openapi.yml",
+   "openapi/_original/kyber-network-limit-order-openapi.yml",
+   "openapi/_original/kyber-network-zaas-openapi.yml"
+  ]
+ },
+ {
+  "slug": "latoken",
+  "specs": [
+   "openapi/_original/latoken-api-v2-swagger.json",
+   "openapi/_original/latoken-openapi.yml",
+   "openapi/_original/latoken-p2p-api-swagger.json",
+   "openapi/_original/latoken-p2p-openapi.yml",
+   "openapi/_original/latoken-websocket-api-swagger.json"
+  ]
+ },
+ {
+  "slug": "lbank",
+  "specs": [
+   "openapi/_original/lbank-spot-market-rest-api.json",
+   "openapi/_original/lbank-spot-trading-rest-api.json",
+   "openapi/_original/lbank-wallet-rest-api.json"
+  ]
+ },
+ {
+  "slug": "ledger",
+  "specs": [
+   "openapi/_original/ledger-buy-provider-openapi-original.yml",
+   "openapi/_original/ledger-buy-provider-openapi.yml",
+   "openapi/_original/ledger-card-provider-openapi-original.yml",
+   "openapi/_original/ledger-card-provider-openapi.yml",
+   "openapi/_original/ledger-earn-provider-openapi-original.yml",
+   "openapi/_original/ledger-earn-provider-openapi.yml",
+   "openapi/_original/ledger-enterprise-multisig-openapi-original.yml",
+   "openapi/_original/ledger-enterprise-multisig-openapi.yml",
+   "openapi/_original/ledger-enterprise-vault-openapi-original.yml",
+   "openapi/_original/ledger-enterprise-vault-openapi.yml",
+   "openapi/_original/ledger-sell-provider-openapi-original.yml",
+   "openapi/_original/ledger-sell-provider-openapi.yml",
+   "openapi/_original/ledger-swap-provider-openapi-original.yml",
+   "openapi/_original/ledger-swap-provider-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lido-finance",
+  "specs": [
+   "openapi/_original/lido-finance-eth-api-openapi-original.json",
+   "openapi/_original/lido-finance-reward-history-openapi-original.json",
+   "openapi/_original/lido-finance-withdrawal-queue-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "lifi",
+  "specs": [
+   "openapi/_original/lifi-earn-openapi-original.yml",
+   "openapi/_original/lifi-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "lighter",
+  "specs": [
+   "openapi/_original/lighter-openapi.json"
+  ]
+ },
+ {
+  "slug": "lightning-labs",
+  "specs": [
+   "openapi/_original/lightning-labs-openapi.json"
+  ]
+ },
+ {
+  "slug": "lightspark",
+  "specs": [
+   "openapi/_original/lightspark-openapi.yml"
+  ]
+ },
+ {
+  "slug": "litecoin",
+  "specs": [
+   "openapi/_original/litecoin-core-json-rpc.yml",
+   "openapi/_original/litecoin-core-rest.yml",
+   "openapi/_original/litecoin-space-rest.yml"
+  ]
+ },
+ {
+  "slug": "loot-rush-games",
+  "specs": [
+   "openapi/_original/loot-rush-games-partner-openapi.json"
+  ]
+ },
+ {
+  "slug": "lootrush",
+  "specs": [
+   "openapi/_original/lootrush-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "lukka",
+  "specs": [
+   "openapi/_original/lukka-analytics-openapi.yml",
+   "openapi/_original/lukka-pricing-market-data-openapi.yml",
+   "openapi/_original/lukka-reference-data-openapi.yml",
+   "openapi/_original/lukka-reference-data-v1-openapi.yml",
+   "openapi/_original/lukka-valuation-openapi.yml"
+  ]
+ },
+ {
+  "slug": "m-0",
+  "specs": [
+   "openapi/_original/m-0-orchestration-openapi.json"
+  ]
+ },
+ {
+  "slug": "m0",
+  "specs": [
+   "openapi/_original/m0-orchestration-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "magic-eden",
+  "specs": [
+   "openapi/_original/magic-eden-evm-openapi.yml",
+   "openapi/_original/magic-eden-openapi.yaml",
+   "openapi/_original/magic-eden-ordinals-openapi.yml",
+   "openapi/_original/magic-eden-solana-openapi.yml"
+  ]
+ },
+ {
+  "slug": "maicoin",
+  "specs": [
+   "openapi/_original/maicoin-max-v3-openapi.json"
+  ]
+ },
+ {
+  "slug": "massive-com",
+  "specs": [
+   "openapi/_original/polygon-benzinga-api-openapi.yml",
+   "openapi/_original/polygon-corporate-actions-api-openapi.yml",
+   "openapi/_original/polygon-crypto-aggregates-api-openapi.yml",
+   "openapi/_original/polygon-crypto-last-trade-api-openapi.yml",
+   "openapi/_original/polygon-crypto-open-close-api-openapi.yml",
+   "openapi/_original/polygon-crypto-openapi.yml",
+   "openapi/_original/polygon-crypto-snapshot-api-openapi.yml",
+   "openapi/_original/polygon-crypto-trades-api-openapi.yml",
+   "openapi/_original/polygon-etfglobal-api-openapi.yml",
+   "openapi/_original/polygon-fable-api-openapi.yml",
+   "openapi/_original/polygon-fed-api-openapi.yml",
+   "openapi/_original/polygon-financials-api-openapi.yml",
+   "openapi/_original/polygon-forex-openapi.yml",
+   "openapi/_original/polygon-futures-aggregates-api-openapi.yml",
+   "openapi/_original/polygon-fx-aggregates-api-openapi.yml",
+   "openapi/_original/polygon-fx-conversion-api-openapi.yml",
+   "openapi/_original/polygon-fx-last-quote-api-openapi.yml",
+   "openapi/_original/polygon-fx-quotes-api-openapi.yml",
+   "openapi/_original/polygon-fx-snapshot-api-openapi.yml",
+   "openapi/_original/polygon-fx-trades-api-openapi.yml",
+   "openapi/_original/polygon-global-crypto-api-openapi.yml",
+   "openapi/_original/polygon-global-forex-api-openapi.yml",
+   "openapi/_original/polygon-indices-aggregates-api-openapi.yml",
+   "openapi/_original/polygon-indices-openapi.yml",
+   "openapi/_original/polygon-indices-snapshot-api-openapi.yml",
+   "openapi/_original/polygon-markets-api-openapi.yml",
+   "openapi/_original/polygon-news-api-openapi.yml",
+   "openapi/_original/polygon-openapi-original.json",
+   "openapi/_original/polygon-options-aggregates-api-openapi.yml",
+   "openapi/_original/polygon-options-last-trade-api-openapi.yml",
+   "openapi/_original/polygon-options-open-close-api-openapi.yml",
+   "openapi/_original/polygon-options-openapi.yml",
+   "openapi/_original/polygon-options-quotes-api-openapi.yml",
+   "openapi/_original/polygon-options-snapshot-api-openapi.yml",
+   "openapi/_original/polygon-options-trades-api-openapi.yml",
+   "openapi/_original/polygon-reference-api-openapi.yml",
+   "openapi/_original/polygon-reference-conditions-api-openapi.yml",
+   "openapi/_original/polygon-reference-dividends-api-openapi.yml",
+   "openapi/_original/polygon-reference-exchanges-api-openapi.yml",
+   "openapi/_original/polygon-reference-news-api-openapi.yml",
+   "openapi/_original/polygon-reference-openapi.yml",
+   "openapi/_original/polygon-reference-options-contract-api-openapi.yml",
+   "openapi/_original/polygon-reference-options-contracts-list-api-openapi.yml",
+   "openapi/_original/polygon-reference-related-companies-api-openapi.yml",
+   "openapi/_original/polygon-reference-sec-filing-api-openapi.yml",
+   "openapi/_original/polygon-reference-sec-filing-file-api-openapi.yml",
+   "openapi/_original/polygon-reference-sec-filing-files-api-openapi.yml",
+   "openapi/_original/polygon-reference-sec-filings-api-openapi.yml",
+   "openapi/_original/polygon-reference-stocks-api-openapi.yml",
+   "openapi/_original/polygon-reference-stocks-ipos-api-openapi.yml",
+   "openapi/_original/polygon-reference-stocks-market-api-openapi.yml",
+   "openapi/_original/polygon-reference-tickers-get-api-openapi.yml",
+   "openapi/_original/polygon-reference-tickers-list-api-openapi.yml",
+   "openapi/_original/polygon-reference-tickers-types-api-openapi.yml",
+   "openapi/_original/polygon-snapshot-api-openapi.yml",
+   "openapi/_original/polygon-stocks-aggregates-api-openapi.yml",
+   "openapi/_original/polygon-stocks-last-quote-api-openapi.yml",
+   "openapi/_original/polygon-stocks-last-trade-api-openapi.yml",
+   "openapi/_original/polygon-stocks-open-close-api-openapi.yml",
+   "openapi/_original/polygon-stocks-openapi.yml",
+   "openapi/_original/polygon-stocks-quotes-api-openapi.yml",
+   "openapi/_original/polygon-stocks-snapshot-api-openapi.yml",
+   "openapi/_original/polygon-stocks-trades-api-openapi.yml",
+   "openapi/_original/polygon-summaries-api-openapi.yml",
+   "openapi/_original/polygon-tickers-api-openapi.yml",
+   "openapi/_original/polygon-tmx-api-openapi.yml",
+   "openapi/_original/polygon-us-futures-api-openapi.yml",
+   "openapi/_original/polygon-us-options-api-openapi.yml",
+   "openapi/_original/polygon-us-stocks-all-api-openapi.yml",
+   "openapi/_original/polygon-us-stocks-reference-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mesh",
+  "specs": [
+   "openapi/_original/mesh-integration-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "mesh-connect",
+  "specs": [
+   "openapi/_original/mesh-connect-admin-openapi-original.json",
+   "openapi/_original/mesh-connect-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "messari",
+  "specs": [
+   "openapi/_original/messari-openapi.yml"
+  ]
+ },
+ {
+  "slug": "metalend",
+  "specs": [
+   "openapi/_original/metalend-rebalancing-openapi.json"
+  ]
+ },
+ {
+  "slug": "meter",
+  "specs": [
+   "openapi/_original/meter-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "mexc",
+  "specs": [
+   "openapi/_original/mexc-futures-rest-api-openapi.json",
+   "openapi/_original/mexc-spot-rest-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "minerstat",
+  "specs": [
+   "openapi/_original/minerstat-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mobula",
+  "specs": [
+   "openapi/_original/mobula-openapi.yml"
+  ]
+ },
+ {
+  "slug": "monero",
+  "specs": [
+   "openapi/_original/monero-daemon-rpc-openapi.json",
+   "openapi/_original/monero-wallet-rpc-openapi.json"
+  ]
+ },
+ {
+  "slug": "mystars",
+  "specs": [
+   "openapi/_original/mystars-faas-openapi.json"
+  ]
+ },
+ {
+  "slug": "mystars-faas-fulfilment-api",
+  "specs": [
+   "openapi/_original/mystars-faas-fulfilment-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "n3xt",
+  "specs": [
+   "openapi/_original/n3xt-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "nano",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "nansen",
+  "specs": [
+   "openapi/_original/nansen-openapi.yml"
+  ]
+ },
+ {
+  "slug": "near",
+  "specs": [
+   "openapi/_original/fastnear-api.json",
+   "openapi/_original/near-rpc-api.json",
+   "openapi/_original/nearblocks-api.json",
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "nestcoin",
+  "specs": [
+   "openapi/_original/nestcoin-external-gateway-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "now-payments",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "obol",
+  "specs": [
+   "openapi/_original/obol-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "octav",
+  "specs": [
+   "openapi/_original/octav-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "ondo-finance",
+  "specs": [
+   "openapi/_original/ondo-finance-gm-openapi-original.json",
+   "openapi/_original/ondo-finance-perps-openapi-original.json",
+   "openapi/_original/ondo-finance-perps-ws-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "opennode",
+  "specs": [
+   "openapi/_original/opennode-openapi.yml"
+  ]
+ },
+ {
+  "slug": "opensea",
+  "specs": [
+   "openapi/_original/opensea-api.json"
+  ]
+ },
+ {
+  "slug": "optimistic-etherscan",
+  "specs": [
+   "openapi/_original/optimistic-etherscan-openapi.yml"
+  ]
+ },
+ {
+  "slug": "orca",
+  "specs": [
+   "openapi/_original/orca-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "orderly-network",
+  "specs": [
+   "openapi/_original/orderly-network-openapi-original.yml",
+   "openapi/_original/orderly-network-strategy-vault-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "origin-protocol",
+  "specs": [
+   "openapi/_original/origin-protocol-openapi.json"
+  ]
+ },
+ {
+  "slug": "orthogonal",
+  "specs": [
+   "openapi/_original/orthogonal-marketplace-openapi.json"
+  ]
+ },
+ {
+  "slug": "oumla-ltd",
+  "specs": [
+   "openapi/_original/oumla-ltd-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "overflow",
+  "specs": [
+   "openapi/_original/overflow-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "p2flux-api",
+  "specs": [
+   "openapi/_original/p2flux-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "paradex",
+  "specs": [
+   "openapi/_original/paradex-openapi-prod.json",
+   "openapi/_original/paradex-openapi.yml"
+  ]
+ },
+ {
+  "slug": "parafi",
+  "specs": [
+   "openapi/_original/parafi-openapi.json"
+  ]
+ },
+ {
+  "slug": "paraswap",
+  "specs": [
+   "openapi/_original/paraswap-market-api-v5.json"
+  ]
+ },
+ {
+  "slug": "paxos",
+  "specs": [
+   "openapi/_original/paxos-v2-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "pendle",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "phemex",
+  "specs": [
+   "openapi/_original/contract.yml",
+   "openapi/_original/hedged-perpetual.yml",
+   "openapi/_original/spot.yml",
+   "openapi/_original/transfer.yml"
+  ]
+ },
+ {
+  "slug": "polkadot",
+  "specs": [
+   "openapi/_original/polkadot-rest-api-openapi.json",
+   "openapi/_original/subscan-swagger.yaml",
+   "openapi/_original/substrate-api-sidecar-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "polygon",
+  "specs": [
+   "openapi/_original/polygon-crypto-openapi.yml",
+   "openapi/_original/polygon-forex-openapi.yml",
+   "openapi/_original/polygon-indices-openapi.yml",
+   "openapi/_original/polygon-openapi-original.json",
+   "openapi/_original/polygon-options-openapi.yml",
+   "openapi/_original/polygon-reference-openapi.yml",
+   "openapi/_original/polygon-stocks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "polygonscan",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "polymarket",
+  "specs": [
+   "openapi/_original/polymarket-openapi.yml"
+  ]
+ },
+ {
+  "slug": "polysign",
+  "specs": [
+   "openapi/_original/polysign-abc-proxy-service-openapi.json",
+   "openapi/_original/polysign-atomicnet-api-server-openapi.json",
+   "openapi/_original/polysign-merchant-gate-openapi.json"
+  ]
+ },
+ {
+  "slug": "prestmit",
+  "specs": [
+   "openapi/_original/prestmit-openapi.yml"
+  ]
+ },
+ {
+  "slug": "pyth",
+  "specs": [
+   "openapi/_original/pyth-benchmarks-openapi-original.json",
+   "openapi/_original/pyth-hermes-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "qfex",
+  "specs": [
+   "openapi/_original/qfex-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "quant",
+  "specs": [
+   "openapi/_original/quant-overledger-server-openapi.yml",
+   "openapi/_original/quant-overledger-server-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "revolut",
+  "specs": [
+   "openapi/_original/revolut-business-openapi.yaml",
+   "openapi/_original/revolut-crypto-ramp-openapi.yaml",
+   "openapi/_original/revolut-merchant-openapi.yaml",
+   "openapi/_original/revolut-open-banking-openapi.yaml",
+   "openapi/_original/revolut-wallet-callbacks-2026-07-01.yaml",
+   "openapi/_original/revolut-wallet-loyalty-callbacks-2026-09-17.yaml",
+   "openapi/_original/revolut-wallet-partner-2026-07-01.yaml",
+   "openapi/_original/revolut-x-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "ripio",
+  "specs": [
+   "openapi/_original/ripio-trade-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ripple-labs",
+  "specs": [
+   "openapi/_original/ripple-labs-palisade-wallet-openapi-original.yml",
+   "openapi/_original/ripple-labs-report-service-openapi-original.yml",
+   "openapi/_original/ripple-labs-ripplenet-openapi-original.yml",
+   "openapi/_original/ripple-labs-rlusd-openapi-original.yml",
+   "openapi/_original/ripple-labs-smart-liquidation-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "safello",
+  "specs": [
+   "openapi/_original/safello-app-openapi.json",
+   "openapi/_original/safello-institutional-openapi.json"
+  ]
+ },
+ {
+  "slug": "sahara-ai",
+  "specs": [
+   "openapi/_original/sahara-ai-compute-openapi.yml"
+  ]
+ },
+ {
+  "slug": "scroll-zkevm",
+  "specs": [
+   "openapi/_original/scroll-zkevm-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sentio",
+  "specs": [
+   "openapi/_original/sentio-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sequence",
+  "specs": [
+   "openapi/_original/sequence-analytics.json",
+   "openapi/_original/sequence-builder.json",
+   "openapi/_original/sequence-indexer.json",
+   "openapi/_original/sequence-infrastructure.json",
+   "openapi/_original/sequence-marketplace.json",
+   "openapi/_original/sequence-metadata.json",
+   "openapi/_original/sequence-transactions.json"
+  ]
+ },
+ {
+  "slug": "seshat-markets",
+  "specs": [
+   "openapi/_original/kronos-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "shapeshift",
+  "specs": [
+   "openapi/_original/shapeshift-bitcoin-openapi.json",
+   "openapi/_original/shapeshift-ethereum-openapi.json",
+   "openapi/_original/shapeshift-solana-openapi.json"
+  ]
+ },
+ {
+  "slug": "siftingio",
+  "specs": [
+   "openapi/_original/siftingio-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "six-group",
+  "specs": [
+   "openapi/_original/six-group-debix-auth-provider-api-v2-provider-to-six-openapi.yml",
+   "openapi/_original/six-group-debix-auth-provider-api-v2-six-to-provider-openapi.yml",
+   "openapi/_original/six-group-debix-bank-api-cardtoken-v2-bank-to-six-openapi.yml",
+   "openapi/_original/six-group-debix-bank-api-v2-bank-to-six-openapi.yml",
+   "openapi/_original/six-group-settlement-info-reporting-openapi.json",
+   "openapi/_original/six-group-sic-clearing-day-calendar-openapi.json",
+   "openapi/_original/six-group-sic-service-status-openapi.json",
+   "openapi/_original/six-group-swiss-bank-master-openapi.json"
+  ]
+ },
+ {
+  "slug": "snowsignals",
+  "specs": [
+   "openapi/_original/snowsignals-daas-openapi.json",
+   "openapi/_original/snowsignals-x402-openapi.json"
+  ]
+ },
+ {
+  "slug": "solana",
+  "specs": [
+   "openapi/_original/solana-rpc-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "solidus-labs",
+  "specs": [
+   "openapi/_original/solidus-labs-tokensniffer-addresses-openapi.yml",
+   "openapi/_original/solidus-labs-tokensniffer-pairs-openapi.yml",
+   "openapi/_original/solidus-labs-tokensniffer-tokens-openapi.yml",
+   "openapi/_original/solidus-labs-tokensniffer-webhooks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "spacemesh",
+  "specs": [
+   "openapi/_original/spacemesh-v1-openapi-original.json",
+   "openapi/_original/spacemesh-v2beta1-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sponge",
+  "specs": [
+   "openapi/_original/sponge-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "stablesea",
+  "specs": [
+   "openapi/_original/stablesea-openapi.json"
+  ]
+ },
+ {
+  "slug": "stellar",
+  "specs": [
+   "openapi/_original/stellar-anchor-platform-api.yml",
+   "openapi/_original/stellar-anchor-platform-callbacks-api.yml",
+   "openapi/_original/stellar-disbursement-platform-api.yml",
+   "openapi/_original/stellar-horizon-api.yml"
+  ]
+ },
+ {
+  "slug": "stooq",
+  "specs": [
+   "openapi/_original/stooq-historical-data-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sui",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "supra",
+  "specs": [
+   "openapi/_original/supra-rpc-node-openapi-original.json",
+   "openapi/_original/supra-rpc-node-openapi.yml"
+  ]
+ },
+ {
+  "slug": "surf",
+  "specs": [
+   "openapi/_original/surf-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sushiswap",
+  "specs": [
+   "openapi/_original/blade-v2-openapi.json",
+   "openapi/_original/sushi-api-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "tastytrade",
+  "specs": [
+   "openapi/_original/account-status.json",
+   "openapi/_original/accounts-and-customers.json",
+   "openapi/_original/backtesting.json",
+   "openapi/_original/balances-and-positions.json",
+   "openapi/_original/instruments.json",
+   "openapi/_original/margin-requirements.json",
+   "openapi/_original/market-data.json",
+   "openapi/_original/market-metrics.json",
+   "openapi/_original/market-sessions.json",
+   "openapi/_original/net-liquidating-value-history.json",
+   "openapi/_original/orders.json",
+   "openapi/_original/quote-alerts.json",
+   "openapi/_original/risk-parameters.json",
+   "openapi/_original/symbol-search.json",
+   "openapi/_original/transactions.json",
+   "openapi/_original/watchlists.json"
+  ]
+ },
+ {
+  "slug": "tensor",
+  "specs": [
+   "openapi/_original/tensor-api-openapi.yml",
+   "openapi/_original/tensor-tx-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tesseract",
+  "specs": [
+   "openapi/_original/tesseract-public-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "tether",
+  "specs": [
+   "openapi/_original/tether-wdk-indexer-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "tezos",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "thecoinanalysis",
+  "specs": [
+   "openapi/_original/spec.json"
+  ]
+ },
+ {
+  "slug": "thorchain",
+  "specs": [
+   "openapi/_original/thorchain-midgard-openapi.json",
+   "openapi/_original/thorchain-thornode-openapi.yaml",
+   "openapi/_original/thorchain-website-openapi.json"
+  ]
+ },
+ {
+  "slug": "timeswap",
+  "specs": [
+   "openapi/_original/timeswap-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "top-group",
+  "specs": [
+   "openapi/_original/top-group-tonapi-openapi.yml",
+   "openapi/_original/top-group-tonapi-webhooks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "totalis",
+  "specs": [
+   "openapi/_original/totalis-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "tradestation",
+  "specs": [
+   "openapi/_original/tradestation-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "transpose",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "tristero",
+  "specs": [
+   "openapi/_original/tristero-api-openapi.json",
+   "openapi/_original/tristero-feather-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "trm-labs",
+  "specs": [
+   "openapi/_original/trm-labs-chainabuse-openapi.yml",
+   "openapi/_original/trm-labs-sanctions-openapi.yml"
+  ]
+ },
+ {
+  "slug": "turnkey",
+  "specs": [
+   "openapi/_original/turnkey-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tweed",
+  "specs": [
+   "openapi/_original/tweed-api-v2-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "twelvedata",
+  "specs": [
+   "openapi/_original/twelvedata-openapi-original.json",
+   "openapi/_original/twelvedata-openapi.yml"
+  ]
+ },
+ {
+  "slug": "uniswap",
+  "specs": [
+   "openapi/_original/uniswap-trading-openapi.json",
+   "openapi/_original/uniswap-trading-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "unstoppable-domains",
+  "specs": [
+   "openapi/_original/unstoppable-domains-partner-api-openapi.yaml",
+   "openapi/_original/unstoppable-domains-reseller-api-openapi.yaml",
+   "openapi/_original/unstoppable-domains-resolution-api-openapi.yaml",
+   "openapi/_original/unstoppable-domains-user-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "unstoppable-finance",
+  "specs": [
+   "openapi/_original/unstoppable-finance-iron-openapi-original.yml",
+   "openapi/_original/unstoppable-finance-moonpay-enterprise-openapi-latest.yml"
+  ]
+ },
+ {
+  "slug": "upbit",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "uphold",
+  "specs": [
+   "openapi/_original/uphold-core-api-openapi.json",
+   "openapi/_original/uphold-kyc-connector-api-openapi.json",
+   "openapi/_original/uphold-market-pulse-api-openapi.json",
+   "openapi/_original/uphold-topper-api-openapi.json",
+   "openapi/_original/uphold-widgets-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "upland",
+  "specs": [
+   "openapi/_original/upland-appchain-history-swagger.json",
+   "openapi/_original/upland-appchain-hyperion-swagger.json",
+   "openapi/_original/upland-developers-api-openapi.json",
+   "openapi/_original/upland-developers-api-sandbox-openapi.json",
+   "openapi/_original/upland-developers-api-sandbox-openapi_2.json"
+  ]
+ },
+ {
+  "slug": "utila",
+  "specs": [
+   "openapi/_original/utila-v2-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "wagerx-io",
+  "specs": [
+   "openapi/_original/wagerx-io-openapi-original.json",
+   "openapi/_original/wagerx-io-openapi.yml"
+  ]
+ },
+ {
+  "slug": "wazirx",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "whitebit",
+  "specs": [
+   "openapi/_original/whitebit-address-checker-openapi.yml",
+   "openapi/_original/whitebit-http-trade-v4-openapi.yml",
+   "openapi/_original/whitebit-http-v1-openapi.yml",
+   "openapi/_original/whitebit-http-v4-openapi.yml",
+   "openapi/_original/whitebit-main-api-v4-openapi.yml",
+   "openapi/_original/whitebit-oauth2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "woox",
+  "specs": [
+   "openapi/_original/woox-openapi.json"
+  ]
+ },
+ {
+  "slug": "x402-list-api",
+  "specs": [
+   "openapi/_original/x402-list-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "xignite",
+  "specs": [
+   "openapi/_original/xignite-bonds-openapi.json",
+   "openapi/_original/xignite-cloud-alerts-openapi.json",
+   "openapi/_original/xignite-cloud-files-openapi.json",
+   "openapi/_original/xignite-crypto-openapi.json",
+   "openapi/_original/xignite-earnings-calendar-openapi.json",
+   "openapi/_original/xignite-factset-fundamentals-openapi.json",
+   "openapi/_original/xignite-global-corporate-actions-openapi.json",
+   "openapi/_original/xignite-global-currencies-openapi.json",
+   "openapi/_original/xignite-global-esg-openapi.json",
+   "openapi/_original/xignite-global-fund-fundamentals-openapi.json",
+   "openapi/_original/xignite-global-futures-openapi.json",
+   "openapi/_original/xignite-global-historical-openapi.json",
+   "openapi/_original/xignite-global-holidays-openapi.json",
+   "openapi/_original/xignite-global-indices-openapi.json",
+   "openapi/_original/xignite-global-master-openapi.json",
+   "openapi/_original/xignite-global-metals-openapi.json",
+   "openapi/_original/xignite-global-news-openapi.json",
+   "openapi/_original/xignite-global-options-openapi.json",
+   "openapi/_original/xignite-global-quotes-openapi.json",
+   "openapi/_original/xignite-global-real-time-openapi.json",
+   "openapi/_original/xignite-money-markets-openapi.json",
+   "openapi/_original/xignite-navs-openapi.json"
+  ]
+ },
+ {
+  "slug": "xt-com",
+  "specs": [
+   "openapi/_original/xt-com-biz-quotation.yml",
+   "openapi/_original/xt-com-biz-user.yml",
+   "openapi/_original/xt-com-futures-market-openapi.yml",
+   "openapi/_original/xt-com-futures-user-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zebpay",
+  "specs": [
+   "openapi/_original/zebpay-postman-converted.yml"
+  ]
+ },
+ {
+  "slug": "zenledger",
+  "specs": [
+   "openapi/_original/zenledger-aggregator-api-openapi.yml",
+   "openapi/_original/zenledger-compliance-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zerion",
+  "specs": [
+   "openapi/_original/zerion-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "zero-hash",
+  "specs": [
+   "openapi/_original/zero-hash-api-openapi.json",
+   "openapi/_original/zero-hash-api-openapi.yml",
+   "openapi/_original/zero-hash-connect-openapi.json",
+   "openapi/_original/zero-hash-connect-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zircuit",
+  "specs": [
+   "openapi/_original/zircuit-gud-trading-engine-openapi.yml"
+  ]
+ }
+]

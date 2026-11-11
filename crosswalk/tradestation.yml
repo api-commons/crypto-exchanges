@@ -1,0 +1,38 @@
+provider: tradestation
+apis_io: https://apis.io/providers/tradestation/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - symbols
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/tradestation-api-openapi.yml#GET /v3/marketdata/symbols/{symbols}
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: OrderID
+      status: Status
+      order_type: OrderType
+      quantity: Quantity
+      side: Side
+      price: LimitPrice
+      symbol: Symbol
+      time_in_force: TimeInForce
+      stop_price: StopPrice
+    core_coverage: 0.875
+    evidence:
+    - openapi/_original/tradestation-api-openapi.yml#DELETE /v3/orderexecution/orders/{orderId}
+    - openapi/_original/tradestation-api-openapi.yml#GET /v3/brokerage/accounts/{accountIds}/orders
+    - openapi/_original/tradestation-api-openapi.yml#POST /v3/orderexecution/orders
+    - openapi/_original/tradestation-api-openapi.yml#PUT /v3/orderexecution/orders/{orderId}
+  balance:
+    path_segment:
+    - accounts
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/tradestation-api-openapi.yml#GET /v3/brokerage/accounts

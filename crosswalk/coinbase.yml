@@ -1,0 +1,30 @@
+provider: coinbase
+apis_io: https://apis.io/providers/coinbase/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: orderId
+      status: status
+      created_at: createdAt
+      updated_at: updatedAt
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/coinbase-openapi.yml#GET /v2/onramp/orders/{orderId}
+    - openapi/_original/coinbase-openapi.yml#POST /v2/onramp/orders
+  balance:
+    path_segment:
+    - accounts
+    - balances
+    properties:
+      created_at: createdAt
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/coinbase-openapi.yml#GET /v2/accounts
+    - openapi/_original/coinbase-openapi.yml#GET /v2/accounts/{accountId}
+    - openapi/_original/coinbase-openapi.yml#GET /v2/evm/accounts
+    - openapi/_original/coinbase-openapi.yml#GET /v2/evm/accounts/{address}
+    - openapi/_original/coinbase-openapi.yml#GET /v2/solana/accounts

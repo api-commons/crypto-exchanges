@@ -1,0 +1,13 @@
+provider: polysign
+apis_io: https://apis.io/providers/polysign/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/polysign-atomicnet-api-server-openapi.json#GET /v1/orders/{order_id}
+    - openapi/_original/polysign-atomicnet-api-server-openapi.json#PUT /v1/orders/

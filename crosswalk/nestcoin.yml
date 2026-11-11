@@ -1,0 +1,25 @@
+provider: nestcoin
+apis_io: https://apis.io/providers/nestcoin/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id:
+      - id
+      - orderId
+      status: status
+      created_at: createdAt
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/nestcoin-external-gateway-openapi-original.json#GET /exchange/api/business/orders/{cexOrderId}
+    - openapi/_original/nestcoin-external-gateway-openapi-original.json#GET /exchange/api/orders
+  balance:
+    path_segment:
+    - balances
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/nestcoin-external-gateway-openapi-original.json#GET /exchange/api/cexs/liquidity-pools/{poolAddress}/balances

@@ -1,0 +1,26 @@
+provider: polkadot
+apis_io: https://apis.io/providers/polkadot/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/swork/member/orders
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/swork/orders
+  balance:
+    path_segment:
+    - balances
+    - balance
+    - accounts
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/assets/account/balances
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/foreignAssets/account/balances
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/midnight/unshielded_tokens/balance
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/midnight/unshielded_tokens/balances
+    - openapi/_original/subscan-swagger.yaml#POST /api/scan/multiTokens/account/balances

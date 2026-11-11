@@ -1,0 +1,476 @@
+context: crypto-exchanges
+name: Crypto Exchanges
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - Cryptocurrency
+  - Crypto Exchange
+  - Exchange
+  - Cryptocurrency Exchange
+  - Digital Assets
+  - Crypto Trading
+  - Bitcoin
+  providers_with_harvested_openapi: 288
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded: {}
+duplicates: {}
+shared_specs: {}
+concepts:
+  trading_pair:
+    segments_seen:
+      markets: 18
+      ticker: 14
+      pairs: 13
+      tickers: 12
+      exchangeinfo: 7
+      symbols: 5
+      instruments: 4
+      products: 3
+      assetpairs: 1
+    providers_exposing: 46
+    providers_with_readable_schema: 41
+    operations:
+    - operation: GET collection
+      providers: 44
+      share: 0.957
+      tier: core
+    - operation: GET item
+      providers: 12
+      share: 0.261
+      tier: extended
+    properties:
+    - name: symbol
+      tier: core
+      providers: 28
+      share: 0.683
+      type: string
+      spellings:
+      - symbol
+      - pair
+      - market
+      - instrument
+      - product_id
+      - instrumentID
+      - instrumentId
+    - name: price
+      tier: extended
+      providers: 13
+      share: 0.317
+      type: string
+      spellings:
+      - lastPrice
+      - last
+      - close
+      - price
+      - last_trade_price
+      - last_price
+    - name: status
+      tier: extended
+      providers: 13
+      share: 0.317
+      type: string
+      spellings:
+      - status
+      - state
+    - name: base_currency
+      tier: extended
+      providers: 12
+      share: 0.293
+      type: string
+      spellings:
+      - baseAsset
+      - base
+      - base_currency
+      - baseCurrency
+      - base_asset
+    - name: quote_currency
+      tier: extended
+      providers: 10
+      share: 0.244
+      type: string
+      spellings:
+      - quoteAsset
+      - quote
+      - quoteCurrency
+      - quote_currency
+      - quote_asset
+    - name: volume
+      tier: extended
+      providers: 10
+      share: 0.244
+      type: string
+      spellings:
+      - volume
+      - baseVolume
+      - volume_24h
+      - vol
+    - name: created_at
+      tier: extended
+      providers: 9
+      share: 0.22
+      type: string
+      spellings:
+      - timestamp
+      - createdAt
+      - time
+      - created_time
+    - name: high
+      tier: extended
+      providers: 9
+      share: 0.22
+      type: string
+      spellings:
+      - high
+    - name: low
+      tier: extended
+      providers: 9
+      share: 0.22
+      type: string
+      spellings:
+      - low
+    long_tail_count: 472
+    long_tail_sample:
+    - name
+    - id
+    - type
+    - description
+    - open
+    - ask
+    - bid
+    - order_types
+    - price_precision
+    - quote_volume
+    - strike_price
+    - active
+    - category
+    - close_time
+    - currency
+    - filters
+    - market_type
+    - max_order_size
+    - option_type
+    - rate_limits
+    - tick_size
+    - title
+    - base_asset_id
+    - base_asset_precision
+    - base_symbol
+    - condition_id
+    - contract_type
+    - error
+    - event_ticker
+    - exchange
+    - exchange_id
+    - image
+    - maker_fee
+    - max
+    - max_open_orders
+    - mid
+    - min
+    - min_amount
+    - min_base_amount
+    - min_notional
+  exchange_order:
+    segments_seen:
+      orders: 32
+      openorders: 7
+      order: 6
+      open_orders: 4
+    providers_exposing: 39
+    providers_with_readable_schema: 36
+    operations:
+    - operation: GET collection
+      providers: 26
+      share: 0.667
+      tier: core
+    - operation: POST collection
+      providers: 26
+      share: 0.667
+      tier: core
+    - operation: GET item
+      providers: 18
+      share: 0.462
+      tier: extended
+    - operation: DELETE collection
+      providers: 14
+      share: 0.359
+      tier: extended
+    - operation: DELETE item
+      providers: 6
+      share: 0.154
+      tier: long-tail
+    - operation: UPDATE item
+      providers: 5
+      share: 0.128
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 4
+      share: 0.103
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 31
+      share: 0.861
+      type: string
+      spellings:
+      - orderId
+      - id
+      - clientOrderId
+      - order_id
+      - orderID
+      - client_order_id
+      - OrderID
+    - name: status
+      tier: core
+      providers: 27
+      share: 0.75
+      type: string
+      spellings:
+      - status
+      - state
+      - Status
+    - name: order_type
+      tier: core
+      providers: 26
+      share: 0.722
+      type: string
+      spellings:
+      - type
+      - orderType
+      - ord_type
+      - ordType
+      - OrderType
+    - name: created_at
+      tier: core
+      providers: 25
+      share: 0.694
+      type: string
+      spellings:
+      - createdAt
+      - timestamp
+      - created_at
+      - createTime
+      - time
+      - createdTime
+      - created-at
+      - created_time
+    - name: quantity
+      tier: core
+      providers: 21
+      share: 0.583
+      type: string
+      spellings:
+      - quantity
+      - amount
+      - origQty
+      - size
+      - Quantity
+    - name: side
+      tier: core
+      providers: 21
+      share: 0.583
+      type: string
+      spellings:
+      - side
+      - orderSide
+      - Side
+    - name: price
+      tier: core
+      providers: 20
+      share: 0.556
+      type: string
+      spellings:
+      - price
+      - LimitPrice
+    - name: symbol
+      tier: core
+      providers: 19
+      share: 0.528
+      type: string
+      spellings:
+      - symbol
+      - market
+      - instrumentID
+      - instrumentId
+      - Symbol
+    - name: time_in_force
+      tier: extended
+      providers: 13
+      share: 0.361
+      type: string
+      spellings:
+      - timeInForce
+      - time_in_force
+      - TimeInForce
+    - name: updated_at
+      tier: extended
+      providers: 12
+      share: 0.333
+      type: string
+      spellings:
+      - updated_at
+      - updateTime
+      - updatedAt
+      - updated_time
+      - updatedTime
+    - name: reduce_only
+      tier: extended
+      providers: 9
+      share: 0.25
+      type: boolean
+      spellings:
+      - reduceOnly
+      - reduce_only
+    - name: stop_price
+      tier: extended
+      providers: 9
+      share: 0.25
+      type: string
+      spellings:
+      - stopPrice
+      - stop_price
+      - StopPrice
+    long_tail_count: 526
+    long_tail_sample:
+    - filled_quantity
+    - post_only
+    - trigger_price
+    - avg_price
+    - expires_at
+    - fee_asset
+    - nonce
+    - position_side
+    - close_position
+    - fee
+    - margin_mode
+    - metadata
+    - payment_currency
+    - payment_method
+    - realized_pnl
+    - request
+    - signature
+    - total_fee
+    - trades
+    - account
+    - action
+    - activation_price
+    - address
+    - amount_ton
+    - api_key
+    - average_executed_price
+    - average_fill_price
+    - callback_url
+    - cl_ord_id
+    - client_id
+    - cum_qty
+    - cum_quote
+    - cummulative_quote_qty
+    - currency
+    - customer_id
+    - error_code
+    - error_message
+    - exchange
+    - executed
+    - executed_quantity
+  balance:
+    segments_seen:
+      balance: 12
+      accounts: 10
+      balances: 10
+      assets: 2
+      wallets: 1
+    providers_exposing: 27
+    providers_with_readable_schema: 23
+    operations:
+    - operation: GET collection
+      providers: 22
+      share: 0.815
+      tier: core
+    - operation: POST collection
+      providers: 9
+      share: 0.333
+      tier: extended
+    - operation: GET item
+      providers: 7
+      share: 0.259
+      tier: extended
+    - operation: UPDATE item
+      providers: 1
+      share: 0.037
+      tier: long-tail
+    properties:
+    - name: currency
+      tier: extended
+      providers: 10
+      share: 0.435
+      type: string
+      spellings:
+      - currency
+      - asset
+    - name: created_at
+      tier: extended
+      providers: 9
+      share: 0.391
+      type: string
+      spellings:
+      - createdAt
+      - created_at
+      - timestamp
+      - created-at
+      - _timestamp
+    - name: available
+      tier: extended
+      providers: 6
+      share: 0.261
+      type: string
+      spellings:
+      - availableBalance
+      - available
+    long_tail_count: 176
+    long_tail_sample:
+    - id
+    - name
+    - status
+    - updated_at
+    - account
+    - account_id
+    - account_type
+    - address
+    - nonce
+    - request
+    - reserved
+    - staked
+    - type
+    - account_alias
+    - amount
+    - cross_un_pnl
+    - cross_wallet_balance
+    - error
+    - hold
+    - interest
+    - margin_available
+    - max_withdraw_amount
+    - symbol
+    - token_address
+    - account_display
+    - account_policy
+    - action
+    - alias
+    - asset_id
+    - asset_symbol
+    - assets
+    - available_actions
+    - available_amount
+    - available_for_withdrawal
+    - available_margin
+    - average_open_price
+    - balance_ev
+    - balance_in_usd
+    - balance_lock
+    - bondable_amount

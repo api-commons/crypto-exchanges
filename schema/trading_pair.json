@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/schema/trading_pair.json",
+  "title": "Trading Pair",
+  "description": "The common trading_pair in Crypto Exchanges, distilled from 41 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "symbol": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.683,
+      "x-commons-providers": 28,
+      "x-commons-spellings": [
+        "symbol",
+        "pair",
+        "market",
+        "instrument",
+        "product_id",
+        "instrumentID",
+        "instrumentId"
+      ]
+    },
+    "price": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.317,
+      "x-commons-providers": 13,
+      "x-commons-spellings": [
+        "lastPrice",
+        "last",
+        "close",
+        "price",
+        "last_trade_price",
+        "last_price"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.317,
+      "x-commons-providers": 13,
+      "x-commons-spellings": [
+        "status",
+        "state"
+      ]
+    },
+    "base_currency": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.293,
+      "x-commons-providers": 12,
+      "x-commons-spellings": [
+        "baseAsset",
+        "base",
+        "base_currency",
+        "baseCurrency",
+        "base_asset"
+      ]
+    },
+    "quote_currency": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.244,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "quoteAsset",
+        "quote",
+        "quoteCurrency",
+        "quote_currency",
+        "quote_asset"
+      ]
+    },
+    "volume": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.244,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "volume",
+        "baseVolume",
+        "volume_24h",
+        "vol"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.22,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "timestamp",
+        "createdAt",
+        "time",
+        "created_time"
+      ],
+      "format": "date-time"
+    },
+    "high": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.22,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "high"
+      ]
+    },
+    "low": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.22,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "low"
+      ]
+    }
+  },
+  "required": [],
+  "x-commons": {
+    "context": "crypto-exchanges",
+    "concept": "trading_pair",
+    "providers": 41,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

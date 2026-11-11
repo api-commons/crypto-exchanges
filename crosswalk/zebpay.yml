@@ -1,0 +1,35 @@
+provider: zebpay
+apis_io: https://apis.io/providers/zebpay/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - ticker
+    - markets
+    - exchangeinfo
+    - pairs
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/zebpay-postman-converted.yml#GET /api/v1/exchange/exchangeInfo
+    - openapi/_original/zebpay-postman-converted.yml#GET /api/v1/exchange/pairs
+    - openapi/_original/zebpay-postman-converted.yml#GET /api/v1/market/BTC-INR/ticker
+    - openapi/_original/zebpay-postman-converted.yml#GET /api/v1/market/markets
+  exchange_order:
+    path_segment:
+    - order
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/zebpay-postman-converted.yml#DELETE /api/v1/trade/order
+    - openapi/_original/zebpay-postman-converted.yml#POST /api/v1/trade/order
+  balance:
+    path_segment:
+    - balance
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/zebpay-postman-converted.yml#GET /api/v1/wallet/balance
+    - openapi/_original/zebpay-postman-converted.yml#GET /orders/balance
+    - openapi/_original/zebpay-postman-converted.yml#GET /wallet/balance

@@ -1,0 +1,28 @@
+provider: kraken
+apis_io: https://apis.io/providers/kraken/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - assetpairs
+    - ticker
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/kraken-openapi.json#GET /public/AssetPairs
+    - openapi/_original/kraken-openapi.json#GET /public/Ticker
+  exchange_order:
+    path_segment:
+    - openorders
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/kraken-openapi.json#POST /private/OpenOrders
+  balance:
+    path_segment:
+    - balance
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/kraken-openapi.json#POST /private/Balance

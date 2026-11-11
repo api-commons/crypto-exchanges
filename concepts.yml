@@ -1,0 +1,63 @@
+context: crypto-exchanges
+name: Crypto Exchanges
+intro: >-
+  The common crypto-exchange vocabulary -- the trading pairs an exchange lists, their tickers, the
+  orders placed against them and the account balances behind them -- distilled from the APIs that already exist.
+tags: [Cryptocurrency, Crypto Exchange, Exchange, Cryptocurrency Exchange, Digital Assets, Crypto Trading, Bitcoin]
+
+envelope: [_links, _pagination, _results, data, success, errors, count, total, page, meta, links, result, results, ret_code, ret_msg,
+           value, next, previous, has_more, message, page_info, cursor, total_count, per_page, total_pages, object, code, msg]
+
+common_fields:
+  id: [uuid, guid, external_id, order_id, client_order_id]
+  created_at: [created, timestamp, create_time, created_time, ctime, time]
+  updated_at: [updated, update_time, updated_time, utime]
+  status: [state, order_status]
+  symbol: [instrument, instrument_id, inst_id, pair, market, product_id, trading_pair, instrument_name]
+
+concepts:
+  trading_pair:
+    requires_any: [exchange_order, balance]
+    path: /trading-pairs
+    segments: [symbols, pairs, markets, instruments, products@crypto|exchange|v1|v2|v3|api, exchangeinfo, exchange_info, assetpairs, currency_pairs, tickers, ticker]
+    aliases:
+      base_currency: [base, base_asset, base_ccy, base_coin]
+      quote_currency: [quote, quote_asset, quote_ccy, quote_coin]
+      price: [last, last_price, last_trade_price, close]
+      volume: [volume_24h, base_volume, vol, vol24h]
+  exchange_order:
+    path: /exchange-orders
+    segments: [orders@crypto|exchange|spot|trade|private|v1|v2|v3|api|futures, order@spot|trade|private|futures, openorders, open_orders]
+    aliases:
+      side: [direction, order_side]
+      order_type: [type, ord_type]
+      price: [limit_price, px]
+      quantity: [size, amount, qty, sz, orig_qty, base_size]
+      filled_quantity: [filled_size, executed_qty, filled_amount, acc_fill_sz, filled]
+  balance:
+    requires: [exchange_order]
+    segments: [balances, balance, accounts@crypto|exchange|spot|private|v1|v2|v3|api, wallets@exchange|spot|private, assets@account|wallet]
+    aliases:
+      currency: [asset, coin, ccy, currency_code]
+      available: [free, available_balance, avail_bal, avail]
+      hold: [locked, frozen, on_hold, frozen_bal]
+      total: [balance, total_balance, eq]
+
+findings:
+  - >-
+    Exchange orders agree on id, status, order_type, created_at, quantity, side, price and symbol --
+    the order is the most consistent resource in crypto, across exchanges that agree on little else.
+    time_in_force reaches 36%.
+  - >-
+    Trading pairs agree only on the symbol; base and quote currency are spelled base, base_asset,
+    base_ccy or base_coin, and many exchanges return a pair as a string.
+  - >-
+    Balances share no property at half: the currency reaches 44%, and the available and held amounts
+    are spelled free/locked, available/hold or avail_bal/frozen_bal.
+decisions:
+  - >-
+    The order is exchange_order, because order is used in commerce and trading; it carries the market's
+    order vocabulary (side, order_type, quantity, price, time_in_force).
+  - >-
+    Balances and trading pairs are counted only at providers that also expose orders, which keeps
+    wallet and banking balances out.

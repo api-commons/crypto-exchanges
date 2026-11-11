@@ -1,0 +1,29 @@
+provider: brl
+apis_io: https://apis.io/providers/brl/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: id
+      status: state
+      created_at: created-at
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/brl-openapi-original.json#GET /api/v0/orders
+    - openapi/_original/brl-openapi-original.json#GET /api/v0/orders/{id}
+    - openapi/_original/brl-openapi-original.json#GET /api/v1/accounts/{account-id}/orders
+    - openapi/_original/brl-openapi-original.json#GET /api/v1/accounts/{account-id}/orders/{id}
+    - openapi/_original/brl-openapi-original.json#POST /api/v0/orders
+  balance:
+    path_segment:
+    - accounts
+    properties:
+      created_at: created-at
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/brl-openapi-original.json#GET /api/v1/accounts
+    - openapi/_original/brl-openapi-original.json#GET /api/v1/accounts/{account-id}
+    - openapi/_original/brl-openapi-original.json#POST /api/v1/accounts

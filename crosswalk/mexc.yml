@@ -1,0 +1,34 @@
+provider: mexc
+apis_io: https://apis.io/providers/mexc/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - ticker
+    - exchangeinfo
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/contract/ticker
+    - openapi/_original/mexc-spot-rest-api-openapi.json#GET /api/v3/exchangeInfo
+  exchange_order:
+    path_segment:
+    - openorders
+    - orders
+    - open_orders
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/private/order/open_orders/
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/private/planorder/list/orders
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/private/stoporder/list/orders
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/private/stoporder/open_orders
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/private/trackorder/list/orders
+  balance:
+    path_segment:
+    - assets
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/mexc-futures-rest-api-openapi.json#GET /api/v1/private/account/assets

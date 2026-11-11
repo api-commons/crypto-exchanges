@@ -1,0 +1,41 @@
+provider: btcmarkets
+apis_io: https://apis.io/providers/btcmarkets/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - markets
+    - tickers
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/btcmarkets-openapi.yml#GET /v3/markets
+    - openapi/_original/btcmarkets-openapi.yml#GET /v3/markets/tickers
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id:
+      - orderId
+      - clientOrderId
+      status: status
+      order_type: type
+      quantity: amount
+      side: side
+      price: price
+      time_in_force: timeInForce
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/btcmarkets-openapi.yml#DELETE /v3/orders
+    - openapi/_original/btcmarkets-openapi.yml#DELETE /v3/orders/{id}
+    - openapi/_original/btcmarkets-openapi.yml#GET /v3/orders
+    - openapi/_original/btcmarkets-openapi.yml#GET /v3/orders/{id}
+    - openapi/_original/btcmarkets-openapi.yml#POST /v3/orders
+  balance:
+    path_segment:
+    - balances
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/btcmarkets-openapi.yml#GET /v3/accounts/me/balances

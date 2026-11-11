@@ -1,0 +1,51 @@
+aid: common-crypto-exchanges
+name: Crypto Exchanges
+type: Common
+description: 'The common Crypto Exchanges vocabulary, distilled from the harvested OpenAPI of 288 providers in APIs.io:
+  shared operations, JSON Schema per concept with measured adoption, and a crosswalk from the common names to each
+  provider''s own.'
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- Cryptocurrency
+- Crypto Exchange
+- Exchange
+- Cryptocurrency Exchange
+- Common Schema
+created: '2026-11-11'
+modified: '2026-11-11'
+url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/apis.yml
+specificationVersion: '0.20'
+apis:
+- aid: common-crypto-exchanges:crypto-exchanges
+  name: Common Crypto Exchanges Interface
+  description: The Crypto Exchanges interface the market already shares, measured.
+  humanURL: https://github.com/api-commons/crypto-exchanges
+  tags:
+  - Cryptocurrency
+  - Crypto Exchange
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/openapi.yml
+  - type: Profile
+    url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/profile.yml
+  - type: Adopters
+    url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/adopters.yml
+  - type: Rules
+    url: https://raw.githubusercontent.com/api-commons/schema-commons/main/ruleset/schema-commons-naming.yaml
+  - type: JSONSchema
+    name: trading_pair
+    url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/schema/trading_pair.json
+  - type: JSONSchema
+    name: exchange_order
+    url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/schema/exchange_order.json
+  - type: JSONSchema
+    name: balance
+    url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/schema/balance.json
+common:
+- type: License
+  url: https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/LICENSE
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

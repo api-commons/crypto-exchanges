@@ -1,0 +1,13 @@
+provider: ledger
+apis_io: https://apis.io/providers/ledger/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - pairs
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/ledger-swap-provider-openapi-original.yml#GET /pairs
+    - openapi/_original/ledger-swap-provider-openapi.yml#GET /pairs

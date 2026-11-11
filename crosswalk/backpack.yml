@@ -1,0 +1,46 @@
+provider: backpack
+apis_io: https://apis.io/providers/backpack/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - markets
+    - ticker
+    - tickers
+    properties:
+      symbol: symbol
+      price: lastPrice
+      status: state
+      volume: volume
+      created_at:
+      - timestamp
+      - createdAt
+      high: high
+      low: low
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/backpack-exchange-openapi.yml#GET /api/v1/borrowLend/markets
+    - openapi/_original/backpack-exchange-openapi.yml#GET /api/v1/markets
+    - openapi/_original/backpack-exchange-openapi.yml#GET /api/v1/ticker
+    - openapi/_original/backpack-exchange-openapi.yml#GET /api/v1/tickers
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: id
+      status: status
+      order_type: orderType
+      created_at: createdAt
+      quantity: quantity
+      side: side
+      price: price
+      symbol: symbol
+      time_in_force: timeInForce
+      reduce_only: reduceOnly
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/backpack-exchange-openapi.yml#DELETE /api/v1/orders
+    - openapi/_original/backpack-exchange-openapi.yml#GET /api/v1/orders
+    - openapi/_original/backpack-exchange-openapi.yml#GET /wapi/v1/history/orders
+    - openapi/_original/backpack-exchange-openapi.yml#POST /api/v1/orders

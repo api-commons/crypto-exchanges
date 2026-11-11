@@ -1,0 +1,200 @@
+openapi: 3.1.0
+info:
+  title: Crypto Exchanges (API Commons)
+  version: 0.1.0-draft.20261111
+  description: 'The common Crypto Exchanges interface, distilled from the harvested OpenAPI of 288 providers in
+    the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /trading-pairs:
+    get:
+      operationId: listTradingPairs
+      summary: List trading pairs
+      tags:
+      - Trading Pairs
+      x-commons-tier: core
+      x-commons-share: 0.957
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id001
+                  $ref: '#/components/schemas/TradingPair'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+  /trading-pairs/{trading_pair_id}:
+    parameters:
+    - $ref: '#/components/parameters/trading_pair_id'
+    get:
+      operationId: getTradingPair
+      summary: Get a trading pair
+      tags:
+      - Trading Pairs
+      x-commons-tier: extended
+      x-commons-share: 0.261
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+  /exchange-orders:
+    get:
+      operationId: listExchangeOrders
+      summary: List exchange orders
+      tags:
+      - Exchange Orders
+      x-commons-tier: core
+      x-commons-share: 0.667
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id002
+                  $ref: '#/components/schemas/ExchangeOrder'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createExchangeOrder
+      summary: Create an exchange order
+      tags:
+      - Exchange Orders
+      x-commons-tier: core
+      x-commons-share: 0.667
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+  /exchange-orders/{exchange_order_id}:
+    parameters:
+    - $ref: '#/components/parameters/exchange_order_id'
+    get:
+      operationId: getExchangeOrder
+      summary: Get an exchange order
+      tags:
+      - Exchange Orders
+      x-commons-tier: extended
+      x-commons-share: 0.462
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+  /balances:
+    get:
+      operationId: listBalances
+      summary: List balances
+      tags:
+      - Balances
+      x-commons-tier: core
+      x-commons-share: 0.815
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id003
+                  $ref: '#/components/schemas/Balance'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createBalance
+      summary: Create a balance
+      tags:
+      - Balances
+      x-commons-tier: extended
+      x-commons-share: 0.333
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id003
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id003
+  /balances/{balance_id}:
+    parameters:
+    - $ref: '#/components/parameters/balance_id'
+    get:
+      operationId: getBalance
+      summary: Get a balance
+      tags:
+      - Balances
+      x-commons-tier: extended
+      x-commons-share: 0.259
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id003
+components:
+  schemas:
+    TradingPair:
+      $ref: ./schema/trading_pair.json
+    ExchangeOrder:
+      $ref: ./schema/exchange_order.json
+    Balance:
+      $ref: ./schema/balance.json
+  parameters:
+    trading_pair_id:
+      name: trading_pair_id
+      in: path
+      required: true
+      schema:
+        type: string
+    exchange_order_id:
+      name: exchange_order_id
+      in: path
+      required: true
+      schema:
+        type: string
+    balance_id:
+      name: balance_id
+      in: path
+      required: true
+      schema:
+        type: string

@@ -1,0 +1,30 @@
+provider: frostbyte
+apis_io: https://apis.io/providers/frostbyte/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - markets
+    properties:
+      symbol: symbol
+      price: price
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/frostbyte-agent-gateway-openapi.yml#GET /v1/defi-trading/api/markets
+    - openapi/_original/frostbyte-crypto-prices-openapi.yml#GET /v1/defi-trading/api/markets
+  exchange_order:
+    path_segment:
+    - orders
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/frostbyte-agent-gateway-openapi.yml#POST /v1/defi-trading/api/orders
+  balance:
+    path_segment:
+    - balance
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/frostbyte-agent-gateway-openapi.yml#GET /api/keys/balance
+    - openapi/_original/frostbyte-agent-gateway-openapi.yml#GET /v1/frostbyte-wallet/v1/wallet/balance/{address}

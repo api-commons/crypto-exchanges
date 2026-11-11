@@ -1,0 +1,46 @@
+provider: maicoin
+apis_io: https://apis.io/providers/maicoin/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - markets
+    - tickers
+    - ticker
+    properties:
+      symbol: market
+      price: last
+      status: status
+      volume: vol
+      high: high
+      low: low
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/maicoin-max-v3-openapi.json#GET /api/v3/markets
+    - openapi/_original/maicoin-max-v3-openapi.json#GET /api/v3/ticker
+    - openapi/_original/maicoin-max-v3-openapi.json#GET /api/v3/tickers
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: id
+      status: state
+      order_type: ord_type
+      created_at: created_at
+      side: side
+      price: price
+      symbol: market
+      updated_at: updated_at
+      stop_price: stop_price
+    core_coverage: 0.875
+    evidence:
+    - openapi/_original/maicoin-max-v3-openapi.json#DELETE /api/v3/wallet/{path_wallet_type}/orders
+  balance:
+    path_segment:
+    - accounts
+    properties:
+      currency: currency
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/maicoin-max-v3-openapi.json#GET /api/v3/wallet/{path_wallet_type}/accounts

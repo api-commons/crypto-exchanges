@@ -1,0 +1,29 @@
+provider: block
+apis_io: https://apis.io/providers/block/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: id
+      status: state
+      created_at: created_at
+      updated_at: updated_at
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/block-openapi.json#GET /v1/{location_id}/orders
+    - openapi/_original/block-openapi.json#GET /v1/{location_id}/orders/{order_id}
+    - openapi/_original/block-openapi.json#GET /v2/orders/{order_id}
+    - openapi/_original/block-openapi.json#POST /v2/orders
+    - openapi/_original/block-openapi.json#PUT /v1/{location_id}/orders/{order_id}
+  balance:
+    path_segment:
+    - accounts
+    properties:
+      created_at: created_at
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/block-openapi.json#GET /v2/loyalty/accounts/{account_id}
+    - openapi/_original/block-openapi.json#POST /v2/loyalty/accounts

@@ -1,0 +1,32 @@
+provider: blockchain.com
+apis_io: https://apis.io/providers/blockchain.com/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - tickers
+    - symbols
+    properties:
+      symbol: symbol
+      price: last_trade_price
+      status: status
+      base_currency: base_currency
+      volume: volume_24h
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/blockchain.com-exchange-openapi.yml#GET /symbols
+    - openapi/_original/blockchain.com-exchange-openapi.yml#GET /symbols/{symbol}
+    - openapi/_original/blockchain.com-exchange-openapi.yml#GET /tickers
+    - openapi/_original/blockchain.com-exchange-openapi.yml#GET /tickers/{symbol}
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: orderId
+      order_type: orderType
+      created_at: createdAt
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/blockchain.com-pay-partner-api-openapi.yml#GET /v1/orders
+    - openapi/_original/blockchain.com-pay-partner-api-openapi.yml#GET /v1/orders/{id}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/crypto-exchanges/main/schema/balance.json",
+  "title": "Balance",
+  "description": "The common balance in Crypto Exchanges, distilled from 23 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "currency": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.435,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "currency",
+        "asset"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.391,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "createdAt",
+        "created_at",
+        "timestamp",
+        "created-at",
+        "_timestamp"
+      ],
+      "format": "date-time"
+    },
+    "available": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.261,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "availableBalance",
+        "available"
+      ]
+    }
+  },
+  "required": [],
+  "x-commons": {
+    "context": "crypto-exchanges",
+    "concept": "balance",
+    "providers": 23,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

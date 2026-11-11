@@ -1,0 +1,12 @@
+provider: near
+apis_io: https://apis.io/providers/near/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - pairs
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/nearblocks-api.json#GET /v1/dex/pairs/{pair}

@@ -1,0 +1,24 @@
+provider: kyber-network
+apis_io: https://apis.io/providers/kyber-network/
+context: crypto-exchanges
+generated: '2026-11-11'
+concepts:
+  trading_pair:
+    path_segment:
+    - pairs
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/kyber-network-limit-order-openapi.yml#GET /read-partner/api/v1/orders/pairs
+  exchange_order:
+    path_segment:
+    - orders
+    properties:
+      id: id
+      status: status
+      created_at: createdAt
+    core_coverage: 0.375
+    evidence:
+    - openapi/_original/kyber-network-limit-order-openapi.yml#GET /read-ks/api/v1/orders
+    - openapi/_original/kyber-network-limit-order-openapi.yml#GET /read-partner/api/v1/orders
+    - openapi/_original/kyber-network-limit-order-openapi.yml#POST /write/api/v1/orders

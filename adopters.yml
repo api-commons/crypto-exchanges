@@ -1,0 +1,335 @@
+context: crypto-exchanges
+generated: '2026-11-11'
+adopters:
+- provider: 2s-io
+  apis_io: https://apis.io/providers/2s-io/
+  crosswalk: crosswalk/2s-io.yml
+  concepts:
+  - trading_pair
+- provider: amberdata
+  apis_io: https://apis.io/providers/amberdata/
+  crosswalk: crosswalk/amberdata.yml
+  concepts:
+  - trading_pair
+- provider: anchorage
+  apis_io: https://apis.io/providers/anchorage/
+  crosswalk: crosswalk/anchorage.yml
+  concepts:
+  - trading_pair
+- provider: arkham
+  apis_io: https://apis.io/providers/arkham/
+  crosswalk: crosswalk/arkham.yml
+  concepts:
+  - trading_pair
+- provider: backpack
+  apis_io: https://apis.io/providers/backpack/
+  crosswalk: crosswalk/backpack.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: bakkt
+  apis_io: https://apis.io/providers/bakkt/
+  crosswalk: crosswalk/bakkt.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: binance
+  apis_io: https://apis.io/providers/binance/
+  crosswalk: crosswalk/binance.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: bithumb
+  apis_io: https://apis.io/providers/bithumb/
+  crosswalk: crosswalk/bithumb.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: bitso
+  apis_io: https://apis.io/providers/bitso/
+  crosswalk: crosswalk/bitso.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: bitvavo
+  apis_io: https://apis.io/providers/bitvavo/
+  crosswalk: crosswalk/bitvavo.yml
+  concepts:
+  - trading_pair
+- provider: block
+  apis_io: https://apis.io/providers/block/
+  crosswalk: crosswalk/block.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: blockchain.com
+  apis_io: https://apis.io/providers/blockchain.com/
+  crosswalk: crosswalk/blockchain.com.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: brl
+  apis_io: https://apis.io/providers/brl/
+  crosswalk: crosswalk/brl.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: btcmarkets
+  apis_io: https://apis.io/providers/btcmarkets/
+  crosswalk: crosswalk/btcmarkets.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: btse
+  apis_io: https://apis.io/providers/btse/
+  crosswalk: crosswalk/btse.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: bullet
+  apis_io: https://apis.io/providers/bullet/
+  crosswalk: crosswalk/bullet.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: bullish
+  apis_io: https://apis.io/providers/bullish/
+  crosswalk: crosswalk/bullish.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: coinbase
+  apis_io: https://apis.io/providers/coinbase/
+  crosswalk: crosswalk/coinbase.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: coinsph
+  apis_io: https://apis.io/providers/coinsph/
+  crosswalk: crosswalk/coinsph.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: delta-exchange
+  apis_io: https://apis.io/providers/delta-exchange/
+  crosswalk: crosswalk/delta-exchange.yml
+  concepts:
+  - trading_pair
+- provider: etoro
+  apis_io: https://apis.io/providers/etoro/
+  crosswalk: crosswalk/etoro.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: evedex
+  apis_io: https://apis.io/providers/evedex/
+  crosswalk: crosswalk/evedex.yml
+  concepts:
+  - trading_pair
+- provider: fireblocks
+  apis_io: https://apis.io/providers/fireblocks/
+  crosswalk: crosswalk/fireblocks.yml
+  concepts:
+  - trading_pair
+- provider: frostbyte
+  apis_io: https://apis.io/providers/frostbyte/
+  crosswalk: crosswalk/frostbyte.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: gemini-trust
+  apis_io: https://apis.io/providers/gemini-trust/
+  crosswalk: crosswalk/gemini-trust.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: hitbtc
+  apis_io: https://apis.io/providers/hitbtc/
+  crosswalk: crosswalk/hitbtc.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: kalshi
+  apis_io: https://apis.io/providers/kalshi/
+  crosswalk: crosswalk/kalshi.yml
+  concepts:
+  - trading_pair
+- provider: kraken
+  apis_io: https://apis.io/providers/kraken/
+  crosswalk: crosswalk/kraken.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: kyber-network
+  apis_io: https://apis.io/providers/kyber-network/
+  crosswalk: crosswalk/kyber-network.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: ledger
+  apis_io: https://apis.io/providers/ledger/
+  crosswalk: crosswalk/ledger.yml
+  concepts:
+  - trading_pair
+- provider: magic-eden
+  apis_io: https://apis.io/providers/magic-eden/
+  crosswalk: crosswalk/magic-eden.yml
+  concepts:
+  - exchange_order
+- provider: maicoin
+  apis_io: https://apis.io/providers/maicoin/
+  crosswalk: crosswalk/maicoin.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: mexc
+  apis_io: https://apis.io/providers/mexc/
+  crosswalk: crosswalk/mexc.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: mystars
+  apis_io: https://apis.io/providers/mystars/
+  crosswalk: crosswalk/mystars.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: mystars-faas-fulfilment-api
+  apis_io: https://apis.io/providers/mystars-faas-fulfilment-api/
+  crosswalk: crosswalk/mystars-faas-fulfilment-api.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: near
+  apis_io: https://apis.io/providers/near/
+  crosswalk: crosswalk/near.yml
+  concepts:
+  - trading_pair
+- provider: nestcoin
+  apis_io: https://apis.io/providers/nestcoin/
+  crosswalk: crosswalk/nestcoin.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: ondo-finance
+  apis_io: https://apis.io/providers/ondo-finance/
+  crosswalk: crosswalk/ondo-finance.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: orderly-network
+  apis_io: https://apis.io/providers/orderly-network/
+  crosswalk: crosswalk/orderly-network.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: paradex
+  apis_io: https://apis.io/providers/paradex/
+  crosswalk: crosswalk/paradex.yml
+  concepts:
+  - trading_pair
+- provider: paxos
+  apis_io: https://apis.io/providers/paxos/
+  crosswalk: crosswalk/paxos.yml
+  concepts:
+  - trading_pair
+- provider: phemex
+  apis_io: https://apis.io/providers/phemex/
+  crosswalk: crosswalk/phemex.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: polkadot
+  apis_io: https://apis.io/providers/polkadot/
+  crosswalk: crosswalk/polkadot.yml
+  concepts:
+  - balance
+  - exchange_order
+- provider: polysign
+  apis_io: https://apis.io/providers/polysign/
+  crosswalk: crosswalk/polysign.yml
+  concepts:
+  - exchange_order
+- provider: revolut
+  apis_io: https://apis.io/providers/revolut/
+  crosswalk: crosswalk/revolut.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: ripio
+  apis_io: https://apis.io/providers/ripio/
+  crosswalk: crosswalk/ripio.yml
+  concepts:
+  - trading_pair
+- provider: safello
+  apis_io: https://apis.io/providers/safello/
+  crosswalk: crosswalk/safello.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: surf
+  apis_io: https://apis.io/providers/surf/
+  crosswalk: crosswalk/surf.yml
+  concepts:
+  - exchange_order
+  - trading_pair
+- provider: top-group
+  apis_io: https://apis.io/providers/top-group/
+  crosswalk: crosswalk/top-group.yml
+  concepts:
+  - trading_pair
+- provider: tradestation
+  apis_io: https://apis.io/providers/tradestation/
+  crosswalk: crosswalk/tradestation.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: wazirx
+  apis_io: https://apis.io/providers/wazirx/
+  crosswalk: crosswalk/wazirx.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: whitebit
+  apis_io: https://apis.io/providers/whitebit/
+  crosswalk: crosswalk/whitebit.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: woox
+  apis_io: https://apis.io/providers/woox/
+  crosswalk: crosswalk/woox.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
+- provider: xt-com
+  apis_io: https://apis.io/providers/xt-com/
+  crosswalk: crosswalk/xt-com.yml
+  concepts:
+  - trading_pair
+- provider: zebpay
+  apis_io: https://apis.io/providers/zebpay/
+  crosswalk: crosswalk/zebpay.yml
+  concepts:
+  - balance
+  - exchange_order
+  - trading_pair
